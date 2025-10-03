@@ -7,6 +7,15 @@
                         #videos {
                             display: grid;
                             grid-template-columns: 1fr 1fr 1fr 1fr;
+                            @media(max-width: 1160px) {
+                                grid-template-columns: 1fr 1fr 1fr;
+                            } 
+                            @media(max-width: 992px) {
+                                grid-template-columns: 1fr 1fr;
+                            } 
+                            @media(max-width: 768px) {
+                                grid-template-columns: 1fr;
+                            } 
                             gap: 15px;
                             .card {
                                 border-radius: 5px;
@@ -31,7 +40,7 @@
                                     .text {
                                         h3 {
                                             margin: 0px;
-                                            font-size: 15px;
+                                            font-size: 14px;
                                             margin-bottom: 5px;
                                         }
                                         p {
@@ -46,6 +55,21 @@
                     }
                 </style>
             <div id='videos'>
+                        <div class='card'>
+                            <div class='hero'>
+                                <img src='https://i.ytimg.com/vi/vi21muFItiA/mqdefault.jpg'>
+                            </div>
+                            <div class='about'>
+                                <div class='image'>
+                                    <img src='https://yt3.ggpht.com/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj'>
+                                </div>
+                                <div class='text'>
+                                    <h3>Real task overload</h3>
+                                    <p>toolfinderhq, Just now</p>
+                                </div>
+                            </div>
+                        </div>
+                    
                         <div class='card'>
                             <div class='hero'>
                                 <img src='https://i.ytimg.com/vi/9XCbwwU5PmE/mqdefault.jpg'>
@@ -506,7 +530,7 @@
                                 </div>
                                 <div class='text'>
                                     <h3>ADHD paid less?</h3>
-                                    <p>toolfinderhq, 28 hours ago</p>
+                                    <p>toolfinderhq, 29 hours ago</p>
                                 </div>
                             </div>
                         </div>
@@ -566,7 +590,7 @@
                                 </div>
                                 <div class='text'>
                                     <h3>n8n in 48 Seconds</h3>
-                                    <p>mreflow, 30 hours ago</p>
+                                    <p>mreflow, 31 hours ago</p>
                                 </div>
                             </div>
                         </div>
