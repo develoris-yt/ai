@@ -10,7 +10,7 @@
         "hours_ago": "Just now",
         "is_short": 0,
         "timestamp": "1759525805",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "vi21muFItiA",
@@ -23,7 +23,7 @@
         "hours_ago": "Just now",
         "is_short": 1,
         "timestamp": "1759525267",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "9XCbwwU5PmE",
@@ -36,12 +36,12 @@
         "hours_ago": "Just now",
         "is_short": 1,
         "timestamp": "1759525114",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "apSB1bbdQqw",
         "video_title": "Invoke - 10\/03 Studio Session",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/apSB1bbdQqw\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/apSB1bbdQqw\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=apSB1bbdQqw",
         "channel_name": "invokeai",
         "channel_link": "https:\/\/www.youtube.com\/@invokeai",
@@ -54,7 +54,7 @@
     {
         "video_id": "budTmdQfXYU",
         "video_title": "n8n Now Runs My ENTIRE Homelab",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/budTmdQfXYU\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/budTmdQfXYU\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=budTmdQfXYU",
         "channel_name": "NetworkChuck",
         "channel_link": "https:\/\/www.youtube.com\/@NetworkChuck",
@@ -75,7 +75,7 @@
         "hours_ago": "3 hours ago",
         "is_short": 1,
         "timestamp": "1759514463",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "WI4T-G83Bg8",
@@ -88,12 +88,12 @@
         "hours_ago": "4 hours ago",
         "is_short": 0,
         "timestamp": "1759512950",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "ovpZ4m6yV6M",
         "video_title": "Create Viral Hooks with SORA 2 Cameos (+ access codes)",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/ovpZ4m6yV6M\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/ovpZ4m6yV6M\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=ovpZ4m6yV6M",
         "channel_name": "elevenlabsio",
         "channel_link": "https:\/\/www.youtube.com\/@elevenlabsio",
@@ -106,7 +106,7 @@
     {
         "video_id": "BnkWIHWCE2U",
         "video_title": "Sora 2 is FREE & UNLIMITED... How to get INVITE CODES From Anywhere",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/BnkWIHWCE2U\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/BnkWIHWCE2U\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=BnkWIHWCE2U",
         "channel_name": "brainprojectx",
         "channel_link": "https:\/\/www.youtube.com\/@brainprojectx",
@@ -127,12 +127,12 @@
         "hours_ago": "5 hours ago",
         "is_short": 0,
         "timestamp": "1759507348",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "UAMY7fU7dxs",
         "video_title": "How to Use Nano Banana In Photoshop (TUTORIAL)",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/UAMY7fU7dxs\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/UAMY7fU7dxs\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=UAMY7fU7dxs",
         "channel_name": "TaylorBayStudios",
         "channel_link": "https:\/\/www.youtube.com\/@TaylorBayStudios",
@@ -153,12 +153,12 @@
         "hours_ago": "7 hours ago",
         "is_short": 0,
         "timestamp": "1759502356",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "pgR0gSh7i2M",
         "video_title": "How I used OpenArt Story to create a BUMPIN Music Video",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/pgR0gSh7i2M\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/pgR0gSh7i2M\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=pgR0gSh7i2M",
         "channel_name": "openart_ai",
         "channel_link": "https:\/\/www.youtube.com\/@openart_ai",
@@ -179,7 +179,7 @@
         "hours_ago": "8 hours ago",
         "is_short": 0,
         "timestamp": "1759498265",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "yo6Lu5RpZXM",
@@ -192,7 +192,7 @@
         "hours_ago": "8 hours ago",
         "is_short": 0,
         "timestamp": "1759497991",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "nr-nrx8vlh8",
@@ -205,7 +205,7 @@
         "hours_ago": "8 hours ago",
         "is_short": 0,
         "timestamp": "1759497563",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "B4uD9z6i_IU",
@@ -218,7 +218,7 @@
         "hours_ago": "9 hours ago",
         "is_short": 0,
         "timestamp": "1759495501",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "NLPOOz1dSOQ",
@@ -231,7 +231,7 @@
         "hours_ago": "10 hours ago",
         "is_short": 1,
         "timestamp": "1759491929",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "hRvghQwSWPI",
@@ -244,12 +244,12 @@
         "hours_ago": "11 hours ago",
         "is_short": 0,
         "timestamp": "1759485521",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "q80g1qW7eNA",
         "video_title": "Suno AI V5 is INSANE - Suno Studio, MIDI Stems, New Remaster, Hooks",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/q80g1qW7eNA\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/q80g1qW7eNA\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=q80g1qW7eNA",
         "channel_name": "AIAutomationLabs",
         "channel_link": "https:\/\/www.youtube.com\/@AIAutomationLabs",
@@ -270,7 +270,7 @@
         "hours_ago": "21 hours ago",
         "is_short": 0,
         "timestamp": "1759449606",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Zn1PW_vmwFA",
@@ -283,7 +283,7 @@
         "hours_ago": "22 hours ago",
         "is_short": 0,
         "timestamp": "1759448315",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "vpsZarAYpII",
@@ -296,12 +296,12 @@
         "hours_ago": "22 hours ago",
         "is_short": 1,
         "timestamp": "1759446993",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "slALvyUuPA4",
         "video_title": "Sora Is More Powerful Than You Thought",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/slALvyUuPA4\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/slALvyUuPA4\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=slALvyUuPA4",
         "channel_name": "TheoreticallyMedia",
         "channel_link": "https:\/\/www.youtube.com\/@TheoreticallyMedia",
@@ -314,7 +314,7 @@
     {
         "video_id": "eUr3LHjcokU",
         "video_title": "SORA 2 Just Broke Reality and the Internet Exploded (Gone Too Far)",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/eUr3LHjcokU\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/eUr3LHjcokU\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=eUr3LHjcokU",
         "channel_name": "airevolutionx",
         "channel_link": "https:\/\/www.youtube.com\/@airevolutionx",
@@ -335,7 +335,7 @@
         "hours_ago": "24 hours ago",
         "is_short": 1,
         "timestamp": "1759438869",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "MQWtlE2C6BM",
@@ -348,7 +348,7 @@
         "hours_ago": "24 hours ago",
         "is_short": 1,
         "timestamp": "1759438487",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "bIMXkzokCiA",
@@ -361,7 +361,7 @@
         "hours_ago": "25 hours ago",
         "is_short": 1,
         "timestamp": "1759437167",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Xt0oupsq9Jc",
@@ -374,7 +374,7 @@
         "hours_ago": "28 hours ago",
         "is_short": 0,
         "timestamp": "1759427105",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "H1u8OX1_dpo",
@@ -387,7 +387,7 @@
         "hours_ago": "28 hours ago",
         "is_short": 0,
         "timestamp": "1759424162",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "aVJTFxuL58I",
@@ -400,7 +400,7 @@
         "hours_ago": "29 hours ago",
         "is_short": 1,
         "timestamp": "1759423659",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "ou-FdankyPA",
@@ -413,12 +413,12 @@
         "hours_ago": "29 hours ago",
         "is_short": 1,
         "timestamp": "1759423393",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "FOdI06UQumI",
         "video_title": "Singapore's SECRET AI Music Generator Will DESTROY The Music Industry",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/FOdI06UQumI\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/FOdI06UQumI\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=FOdI06UQumI",
         "channel_name": "brainprojectx",
         "channel_link": "https:\/\/www.youtube.com\/@brainprojectx",
@@ -439,7 +439,7 @@
         "hours_ago": "29 hours ago",
         "is_short": 0,
         "timestamp": "1759421401",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "U7NAIiDyBDc",
@@ -452,7 +452,7 @@
         "hours_ago": "29 hours ago",
         "is_short": 1,
         "timestamp": "1759420856",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "7T0hZtBjBvw",
@@ -465,12 +465,12 @@
         "hours_ago": "31 hours ago",
         "is_short": 1,
         "timestamp": "1759416143",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "zIcqQ9HNmDU",
         "video_title": "Sora 2 - OpenAI's TikTok",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/zIcqQ9HNmDU\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/zIcqQ9HNmDU\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=zIcqQ9HNmDU",
         "channel_name": "samwitteveenai",
         "channel_link": "https:\/\/www.youtube.com\/@samwitteveenai",
@@ -491,12 +491,12 @@
         "hours_ago": "31 hours ago",
         "is_short": 0,
         "timestamp": "1759415010",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "8TpoA0yGQq0",
         "video_title": "Hand Transition Effect With Kling 2.5",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/8TpoA0yGQq0\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/8TpoA0yGQq0\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=8TpoA0yGQq0",
         "channel_name": "openart_ai",
         "channel_link": "https:\/\/www.youtube.com\/@openart_ai",
@@ -517,12 +517,12 @@
         "hours_ago": "31 hours ago",
         "is_short": 0,
         "timestamp": "1759414517",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "KQdvjLRnGnU",
         "video_title": "Easy Ways To Add YOUR FACE To Midjourney Images (for UNIQUE AI Art!)",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/KQdvjLRnGnU\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/KQdvjLRnGnU\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=KQdvjLRnGnU",
         "channel_name": "WadeMcMaster",
         "channel_link": "https:\/\/www.youtube.com\/@WadeMcMaster",
@@ -543,7 +543,7 @@
         "hours_ago": "32 hours ago",
         "is_short": 1,
         "timestamp": "1759412705",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "W52qBo14toA",
@@ -556,7 +556,7 @@
         "hours_ago": "32 hours ago",
         "is_short": 0,
         "timestamp": "1759411994",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "-rWNkgdaYZI",
@@ -569,7 +569,7 @@
         "hours_ago": "32 hours ago",
         "is_short": 1,
         "timestamp": "1759411287",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "FL4K_t9Uz9o",
@@ -582,7 +582,7 @@
         "hours_ago": "32 hours ago",
         "is_short": 0,
         "timestamp": "1759410033",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "jXNxIbYM7wI",
@@ -595,7 +595,7 @@
         "hours_ago": "33 hours ago",
         "is_short": 0,
         "timestamp": "1759407749",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "3wppS0bcQps",
@@ -608,7 +608,7 @@
         "hours_ago": "39 hours ago",
         "is_short": 0,
         "timestamp": "1759387612",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "-4Fqlvzz1t0",
@@ -621,7 +621,7 @@
         "hours_ago": "40 hours ago",
         "is_short": 1,
         "timestamp": "1759384351",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "El-G4cO4x4I",
@@ -634,7 +634,7 @@
         "hours_ago": "43 hours ago",
         "is_short": 0,
         "timestamp": "1759370496",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "L09kacrneOc",
@@ -647,7 +647,7 @@
         "hours_ago": "45 hours ago",
         "is_short": 0,
         "timestamp": "1759364745",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Ke0yXxDUdWQ",
@@ -660,12 +660,12 @@
         "hours_ago": "45 hours ago",
         "is_short": 0,
         "timestamp": "1759363206",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "IPi_2VreqW8",
         "video_title": "Sam & Sam talk AGI",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/IPi_2VreqW8\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/IPi_2VreqW8\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=IPi_2VreqW8",
         "channel_name": "samwitteveenai",
         "channel_link": "https:\/\/www.youtube.com\/@samwitteveenai",
@@ -686,12 +686,12 @@
         "hours_ago": "49 hours ago",
         "is_short": 0,
         "timestamp": "1759351859",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "FRt2erUbSA8",
         "video_title": "AI SHOCKS The World This Month: Unitree Anti-Gravity Robot, ChatGPT Upgrade, Chrome AI...",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/FRt2erUbSA8\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/FRt2erUbSA8\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=FRt2erUbSA8",
         "channel_name": "airevolutionx",
         "channel_link": "https:\/\/www.youtube.com\/@airevolutionx",
@@ -704,7 +704,7 @@
     {
         "video_id": "s1ykViUikTU",
         "video_title": "Open AI's Sora 2 made me rethink what's possible.",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/s1ykViUikTU\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/s1ykViUikTU\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=s1ykViUikTU",
         "channel_name": "MattVidPro",
         "channel_link": "https:\/\/www.youtube.com\/@MattVidPro",
@@ -725,7 +725,7 @@
         "hours_ago": "50 hours ago",
         "is_short": 0,
         "timestamp": "1759346751",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "wCjfzUxndNA",
@@ -738,7 +738,7 @@
         "hours_ago": "50 hours ago",
         "is_short": 1,
         "timestamp": "1759345253",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "hkSj-QapfZo",
@@ -751,7 +751,7 @@
         "hours_ago": "51 hours ago",
         "is_short": 0,
         "timestamp": "1759343906",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "OsouEqM33mc",
@@ -764,7 +764,7 @@
         "hours_ago": "51 hours ago",
         "is_short": 0,
         "timestamp": "1759343606",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "hhblUK-H1Ok",
@@ -777,7 +777,7 @@
         "hours_ago": "51 hours ago",
         "is_short": 0,
         "timestamp": "1759342574",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "jqhnplwGUK0",
@@ -790,12 +790,12 @@
         "hours_ago": "53 hours ago",
         "is_short": 0,
         "timestamp": "1759335870",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "7JekC_Gq8VM",
         "video_title": "How to Create Cinematic AI Films with Kling 2.5 Turbo",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/7JekC_Gq8VM\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/7JekC_Gq8VM\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=7JekC_Gq8VM",
         "channel_name": "elevenlabsio",
         "channel_link": "https:\/\/www.youtube.com\/@elevenlabsio",
@@ -816,7 +816,7 @@
         "hours_ago": "54 hours ago",
         "is_short": 0,
         "timestamp": "1759330843",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "PtoMK9Vo0gI",
@@ -829,7 +829,7 @@
         "hours_ago": "55 hours ago",
         "is_short": 0,
         "timestamp": "1759330157",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "mbuyzVL5kpM",
@@ -842,7 +842,7 @@
         "hours_ago": "55 hours ago",
         "is_short": 0,
         "timestamp": "1759327219",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Obws0EX_Ew8",
@@ -855,7 +855,7 @@
         "hours_ago": "55 hours ago",
         "is_short": 0,
         "timestamp": "1759327063",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "uBTWW8s9Nhc",
@@ -868,12 +868,12 @@
         "hours_ago": "56 hours ago",
         "is_short": 0,
         "timestamp": "1759326605",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "lz8lRPY4Z9I",
         "video_title": "Midjourney Update | September 2025: NEW Style Explorer, V7.1 & V8 Updates, User Profiles!",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/lz8lRPY4Z9I\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/lz8lRPY4Z9I\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=lz8lRPY4Z9I",
         "channel_name": "woollyferncreative",
         "channel_link": "https:\/\/www.youtube.com\/@woollyferncreative",
@@ -894,7 +894,7 @@
         "hours_ago": "57 hours ago",
         "is_short": 0,
         "timestamp": "1759321830",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "y5kGxG-tluE",
@@ -907,7 +907,7 @@
         "hours_ago": "61 hours ago",
         "is_short": 0,
         "timestamp": "1759307131",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "iAwbUBtkB44",
@@ -920,7 +920,7 @@
         "hours_ago": "62 hours ago",
         "is_short": 1,
         "timestamp": "1759305145",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "NpVlDkkJ_LM",
@@ -933,7 +933,7 @@
         "hours_ago": "63 hours ago",
         "is_short": 1,
         "timestamp": "1759299990",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "p8ElqJqOW7o",
@@ -946,7 +946,7 @@
         "hours_ago": "66 hours ago",
         "is_short": 1,
         "timestamp": "1759287736",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Oqr9PMRbN2I",
@@ -959,7 +959,7 @@
         "hours_ago": "67 hours ago",
         "is_short": 0,
         "timestamp": "1759286026",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "v9wfDUaEZmk",
@@ -972,7 +972,7 @@
         "hours_ago": "68 hours ago",
         "is_short": 1,
         "timestamp": "1759280874",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "pbwAMl2dAcE",
@@ -985,7 +985,7 @@
         "hours_ago": "70 hours ago",
         "is_short": 0,
         "timestamp": "1759275006",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Gbpna2lGLX4",
@@ -998,12 +998,12 @@
         "hours_ago": "70 hours ago",
         "is_short": 1,
         "timestamp": "1759273316",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "2aL5P0KZ7v8",
         "video_title": "New Claude Sonnet 4.5 Just Broke EVERY Limit We Knew (So Powerful It\u2019s Scary)",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/2aL5P0KZ7v8\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/2aL5P0KZ7v8\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=2aL5P0KZ7v8",
         "channel_name": "airevolutionx",
         "channel_link": "https:\/\/www.youtube.com\/@airevolutionx",
@@ -1016,7 +1016,7 @@
     {
         "video_id": "bHJ-EQd1Cpo",
         "video_title": "Sora 2 Bombshell! It's FREE and Here!",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/bHJ-EQd1Cpo\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/bHJ-EQd1Cpo\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=bHJ-EQd1Cpo",
         "channel_name": "TheoreticallyMedia",
         "channel_link": "https:\/\/www.youtube.com\/@TheoreticallyMedia",
@@ -1037,7 +1037,7 @@
         "hours_ago": "72 hours ago",
         "is_short": 1,
         "timestamp": "1759266651",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "J7ypNOpsIYI",
@@ -1050,7 +1050,7 @@
         "hours_ago": "72 hours ago",
         "is_short": 1,
         "timestamp": "1759265975",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "saQTiB2oTv4",
@@ -1063,7 +1063,7 @@
         "hours_ago": "73 hours ago",
         "is_short": 0,
         "timestamp": "1759263456",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "XSw20--hD9w",
@@ -1076,7 +1076,7 @@
         "hours_ago": "73 hours ago",
         "is_short": 0,
         "timestamp": "1759262638",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "CDAuUHdlKUA",
@@ -1089,7 +1089,7 @@
         "hours_ago": "74 hours ago",
         "is_short": 0,
         "timestamp": "1759258811",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "MmgIBEDnqys",
@@ -1102,7 +1102,7 @@
         "hours_ago": "75 hours ago",
         "is_short": 0,
         "timestamp": "1759255656",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "m0Jtb1kgHtM",
@@ -1115,12 +1115,12 @@
         "hours_ago": "76 hours ago",
         "is_short": 0,
         "timestamp": "1759253429",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "4-c9bArife4",
         "video_title": "... there's more to Sonnet 4.5",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/4-c9bArife4\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/4-c9bArife4\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=4-c9bArife4",
         "channel_name": "samwitteveenai",
         "channel_link": "https:\/\/www.youtube.com\/@samwitteveenai",
@@ -1133,7 +1133,7 @@
     {
         "video_id": "VPjoce7YYxI",
         "video_title": "Google WHISK = Best Way to Use NANO BANANA! 10 Reasons With Examples",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/VPjoce7YYxI\/mqdefault.jpg",
+        "video_image": "https:\/\/i.ytimg.com\/vi\/VPjoce7YYxI\/hqdefault.jpg",
         "video_link": "https:\/\/www.youtube.com\/watch?v=VPjoce7YYxI",
         "channel_name": "CreativePadMedia",
         "channel_link": "https:\/\/www.youtube.com\/@CreativePadMedia",
@@ -1154,7 +1154,7 @@
         "hours_ago": "79 hours ago",
         "is_short": 0,
         "timestamp": "1759242517",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "IHgNQc8QJWY",
@@ -1167,7 +1167,7 @@
         "hours_ago": "80 hours ago",
         "is_short": 1,
         "timestamp": "1759236877",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "lhAk9BG9Njo",
@@ -1180,7 +1180,7 @@
         "hours_ago": "83 hours ago",
         "is_short": 0,
         "timestamp": "1759229161",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "H8eAobdcQu0",
@@ -1193,7 +1193,7 @@
         "hours_ago": "86 hours ago",
         "is_short": 1,
         "timestamp": "1759217915",
-        "remove": 0
+        "remove": 1
     },
     {
         "video_id": "Vtqpgh4rLvY",
@@ -1206,6 +1206,6 @@
         "hours_ago": "92 hours ago",
         "is_short": 0,
         "timestamp": "1759195101",
-        "remove": 0
+        "remove": 1
     }
 ]
