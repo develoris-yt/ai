@@ -20,7 +20,7 @@
         "channel_name": "PaulJLipsky",
         "channel_link": "https:\/\/www.youtube.com\/@PaulJLipsky",
         "channel_image": "https:\/\/yt3.ggpht.com\/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "One hour ago",
+        "hours_ago": "2 hours ago",
         "is_short": 0,
         "timestamp": "1759669261",
         "remove": 0
@@ -85,7 +85,7 @@
         "channel_name": "airevolutionx",
         "channel_link": "https:\/\/www.youtube.com\/@airevolutionx",
         "channel_image": "https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "15 hours ago",
+        "hours_ago": "16 hours ago",
         "is_short": 0,
         "timestamp": "1759618821",
         "remove": 0
@@ -215,7 +215,7 @@
         "channel_name": "GregIsenberg",
         "channel_link": "https:\/\/www.youtube.com\/@GregIsenberg",
         "channel_image": "https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "40 hours ago",
+        "hours_ago": "41 hours ago",
         "is_short": 0,
         "timestamp": "1759528832",
         "remove": 0
@@ -410,7 +410,7 @@
         "channel_name": "AIAutomationLabs",
         "channel_link": "https:\/\/www.youtube.com\/@AIAutomationLabs",
         "channel_image": "https:\/\/yt3.ggpht.com\/O0uJqRAkVl5DQfTUFpwF39RV7k9obeNKvdtTUDjmUkDLu9zjBIBhtq0Jr53pRCaliyRRBG9rng=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "61 hours ago",
+        "hours_ago": "62 hours ago",
         "is_short": 0,
         "timestamp": "1759453256",
         "remove": 0
@@ -462,7 +462,7 @@
         "channel_name": "airevolutionx",
         "channel_link": "https:\/\/www.youtube.com\/@airevolutionx",
         "channel_image": "https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "64 hours ago",
+        "hours_ago": "65 hours ago",
         "is_short": 0,
         "timestamp": "1759442452",
         "remove": 0
@@ -566,7 +566,7 @@
         "channel_name": "WadeMcMaster",
         "channel_link": "https:\/\/www.youtube.com\/@WadeMcMaster",
         "channel_image": "https:\/\/yt3.ggpht.com\/1ZG1JDuIjuaYKdQ7GNxv2JVEOPT6wllFv-YTIU2-2uytBAvntGhcHRJZj8YgO7E1GAmhNR_1kQ=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "72 hours ago",
+        "hours_ago": "73 hours ago",
         "is_short": 0,
         "timestamp": "1759413635",
         "remove": 0
@@ -592,7 +592,7 @@
         "channel_name": "PaulJLipsky",
         "channel_link": "https:\/\/www.youtube.com\/@PaulJLipsky",
         "channel_image": "https:\/\/yt3.ggpht.com\/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "73 hours ago",
+        "hours_ago": "74 hours ago",
         "is_short": 0,
         "timestamp": "1759410033",
         "remove": 0
@@ -777,19 +777,6 @@
         "hours_ago": "95 hours ago",
         "is_short": 0,
         "timestamp": "1759332503",
-        "remove": 0
-    },
-    {
-        "video_id": "rWppu2KhWIc",
-        "video_title": "Sora 2 - It will only get more realistic from here",
-        "video_image": "https:\/\/i.ytimg.com\/vi\/rWppu2KhWIc\/maxresdefault.jpg",
-        "video_link": "https:\/\/www.youtube.com\/watch?v=rWppu2KhWIc",
-        "channel_name": "AIExplained",
-        "channel_link": "https:\/\/www.youtube.com\/@aiexplained-official",
-        "channel_image": "https:\/\/yt3.ggpht.com\/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "95 hours ago",
-        "is_short": 0,
-        "timestamp": "1759330843",
         "remove": 0
     }
 ]
