@@ -4,57 +4,63 @@
                         margin: 0px;
                         font-family: Arial;
                         background: #f5f5f5;
-                        #videos {
-                            display: grid;
-                            grid-template-columns: 1fr 1fr 1fr 1fr;
-                            width: 1100px;
-                            margin: 0px auto;
-                            max-width: 100%;
-                            @media(max-width: 1160px) {
-                                grid-template-columns: 1fr 1fr 1fr;
-                            } 
-                            @media(max-width: 992px) {
-                                grid-template-columns: 1fr 1fr;
-                            } 
-                            @media(max-width: 768px) {
-                                grid-template-columns: 1fr;
-                                padding-left: 15px;
-                                padding-right: 15px;
-                            } 
-                            gap: 15px;
-                            .card {
-                                border-radius: 5px;
-                                background: white;
-                                overflow: hidden;
-                                .hero {
-                                    iframe {
-                                        width: 100%;
-                                        aspect-ratio: 16/9;
-                                        border: none;
-                                        height: auto;
-                                    }
-                                }
-                                .about {
-                                    display: flex;
-                                    padding: 15px;
-                                    align-items: center;
-                                    .image {
-                                        padding-right: 15px;
-                                        img {
-                                            border-radius: 5px;
-                                            width: 45px;
+                        #sidebar {
+                            width: 350px;
+                        }
+                        #main {
+                            width: calc(100% - 350px);
+                            #videos {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                                width: 1100px;
+                                margin: 0px auto;
+                                max-width: 100%;
+                                @media(max-width: 1160px) {
+                                    grid-template-columns: 1fr 1fr 1fr;
+                                } 
+                                @media(max-width: 992px) {
+                                    grid-template-columns: 1fr 1fr;
+                                } 
+                                @media(max-width: 768px) {
+                                    grid-template-columns: 1fr;
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                } 
+                                gap: 15px;
+                                .card {
+                                    border-radius: 5px;
+                                    background: white;
+                                    overflow: hidden;
+                                    .hero {
+                                        iframe {
+                                            width: 100%;
+                                            aspect-ratio: 16/9;
+                                            border: none;
+                                            height: auto;
                                         }
                                     }
-                                    .text {
-                                        h3 {
-                                            margin: 0px;
-                                            font-size: 14px;
-                                            margin-bottom: 5px;
+                                    .about {
+                                        display: flex;
+                                        padding: 15px;
+                                        align-items: center;
+                                        .image {
+                                            padding-right: 15px;
+                                            img {
+                                                border-radius: 5px;
+                                                width: 45px;
+                                            }
                                         }
-                                        p {
-                                            margin: 0px;
-                                            font-size: 12px;
-                                            opacity: 0.5
+                                        .text {
+                                            h3 {
+                                                margin: 0px;
+                                                font-size: 14px;
+                                                margin-bottom: 5px;
+                                            }
+                                            p {
+                                                margin: 0px;
+                                                font-size: 12px;
+                                                opacity: 0.5
+                                            }
                                         }
                                     }
                                 }
@@ -62,959 +68,965 @@
                         }
                     }
                 </style>
-            <div id='videos'>
-                        <div class='card' data-index='0'>
-                            <div class='hero'>
-                                <div id='player-bVxBrzSe3kA'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Open-source Sora 2, realtime AI video, new DeepSeek, Nanobanana upgrades, Claude 4.5, realtime TTS</h3>
-                                    <p>theAIsearch, 6 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='1'>
-                            <div class='hero'>
-                                <div id='player-ueCvU5c8ZLk'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>I Tested ChatGPT As My Startup Cofounder for a Week - Here&#039;s My Grade</h3>
-                                    <p>AIDailyBrief, 7 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='2'>
-                            <div class='hero'>
-                                <div id='player-f5mrzYpq49M'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>DeepSeek is BACK! New AI Model That Might Shake the Industry</h3>
-                                    <p>airevolutionx, 9 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='3'>
-                            <div class='hero'>
-                                <div id='player-nt8gUax1Aj0'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How I&#039;d use Sora 2 + Claude to hit 1M+ views on AI videos</h3>
-                                    <p>GregIsenberg, 13 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='4'>
-                            <div class='hero'>
-                                <div id='player-5BbNDct5BD8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 vs Veo 3 vs Kling 2.5 vs Wan 2.5: The ULTIMATE AI Video Generator Comparison</h3>
-                                    <p>TechTutorZones, 15 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='5'>
-                            <div class='hero'>
-                                <div id='player-RZDP8pMuSD0'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Vibe Coding Comes to the Enterprise</h3>
-                                    <p>AIDailyBrief, 15 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='6'>
-                            <div class='hero'>
-                                <div id='player-v35C2KbdH4w'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Google’s Hidden AI Shortcut Pays WEEKLY (Few Know This)</h3>
-                                    <p>NickPonte808, 16 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='7'>
-                            <div class='hero'>
-                                <div id='player-EB4CbLg943c'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/5FkuZACLRvTFlc3SNpIuh0vHMK_d9dNqS1ktqJpwRpFs96SJuwyCYk1XMy4kHpRhkx3hnu4QXg=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>AI Slop vs Professional AI: The Right Way to Use AI as a Creative</h3>
-                                    <p>MidjourneyExperience, 26 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='8'>
-                            <div class='hero'>
-                                <div id='player-n-lKw-hr4n4'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/cB79txKLgy_hLeHp_FRu9CPmIngQOkJVrMp_dLvHJH-NsoUDkJ-b_Z-381SmV9h5gmTzz9f_QA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Invoke - 10/03 Studio Session</h3>
-                                    <p>invokeai, 26 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='9'>
-                            <div class='hero'>
-                                <div id='player-dIWovyRPOp8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 Videos on Autopilot 🚀 Free N8N Template (Veo 3 &amp; Wan 2.5 Killer!)</h3>
-                                    <p>AdrianViralAIMarketing, 30 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='10'>
-                            <div class='hero'>
-                                <div id='player-mPWlKfRw1bM'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>New SHAPE SHIFTING AI Robot Is Freaking People Out</h3>
-                                    <p>airevolutionx, 34 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='11'>
-                            <div class='hero'>
-                                <div id='player-lVDrHZY1mUc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Now You Can Buy Stuff in ChatGPT — But Does Anyone Want To?</h3>
-                                    <p>AIDailyBrief, 34 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='12'>
-                            <div class='hero'>
-                                <div id='player-IjYKIqvTyXg'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>I gave away $1M to prove anyone can build with AI</h3>
-                                    <p>GregIsenberg, 34 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='13'>
-                            <div class='hero'>
-                                <div id='player-lfSn8m21DpQ'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Is Sora 2 Worth the Hype?</h3>
-                                    <p>curiousrefuge, 35 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='14'>
-                            <div class='hero'>
-                                <div id='player-budTmdQfXYU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>n8n Now Runs My ENTIRE Homelab</h3>
-                                    <p>NetworkChuck, 38 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='15'>
-                            <div class='hero'>
-                                <div id='player-WI4T-G83Bg8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>These OpenAI Releases Are INSANE &amp; More AI Use Cases</h3>
-                                    <p>aiadvantage, 39 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='16'>
-                            <div class='hero'>
-                                <div id='player-ovpZ4m6yV6M'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Create Viral Hooks with SORA 2 Cameos (+ access codes)</h3>
-                                    <p>elevenlabsio, 40 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='17'>
-                            <div class='hero'>
-                                <div id='player-BnkWIHWCE2U'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 PRO is Here, FREE &amp; UNLIMITED... How to get INVITE CODES From Anywhere</h3>
-                                    <p>brainprojectx, 40 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='18'>
-                            <div class='hero'>
-                                <div id='player-SquU4Bpc73Y'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Alibaba is going all in on Qwen…</h3>
-                                    <p>Fireship, 40 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='19'>
-                            <div class='hero'>
-                                <div id='player-UAMY7fU7dxs'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/9jBZ5tqt359I1u1yX5cXLeiAru8VZsZtrhAbUlY0z_uDFosIsv71quTR5rxgTPCB5R_17CDHnw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How to Use Nano Banana In Photoshop (TUTORIAL)</h3>
-                                    <p>TaylorBayStudios, 41 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='20'>
-                            <div class='hero'>
-                                <div id='player-mYd8VgGtw5A'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>OpenAI’s Sora 2: Future of Media or AI SLOPOCALYPSE??</h3>
-                                    <p>AIForHumansShow, 42 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='21'>
-                            <div class='hero'>
-                                <div id='player-pgR0gSh7i2M'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/p39dy5K7y1p4S83eyGKAIGtKq-z5-jjGCNJneNMMlP5nWS7YKgrGeG02PMWxZiTvEUFeTOWGseg=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How I used OpenArt Story to create a BUMPIN Music Video</h3>
-                                    <p>openart_ai, 42 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='22'>
-                            <div class='hero'>
-                                <div id='player-y91cq1RYR9c'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Nd14uY9un3LNeAaH3fjOkZfc7ZQ4-OPoXIorNQp6CQ5QheKzlwAsMQCJttyh-exhYbb7ZZRXrTo=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>I Launched a Print on Demand Product at the Airport in 10 Minutes</h3>
-                                    <p>GeorgeDMcConnell, 43 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='23'>
-                            <div class='hero'>
-                                <div id='player-yo6Lu5RpZXM'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>US Gov&#039;t: &quot;DeepSeek Sucks, Actually&quot;</h3>
-                                    <p>AIDailyBrief, 43 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='24'>
-                            <div class='hero'>
-                                <div id='player-nr-nrx8vlh8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How To Get SORA 2 Cameo App for FREE Anywhere in the WORLD</h3>
-                                    <p>Dankieft, 43 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='25'>
-                            <div class='hero'>
-                                <div id='player-B4uD9z6i_IU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Vibe Planning: The Smarter Way to Code with AI Agents</h3>
-                                    <p>engineerprompt, 44 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='26'>
-                            <div class='hero'>
-                                <div id='player-hRvghQwSWPI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora2 is NOW in n8n — OpenAI&#039;s Veo3 x Wan2.5 Killer (no-code AI automation tutorial 🥚)</h3>
-                                    <p>RoboNuggets, 46 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='27'>
-                            <div class='hero'>
-                                <div id='player-q80g1qW7eNA'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/O0uJqRAkVl5DQfTUFpwF39RV7k9obeNKvdtTUDjmUkDLu9zjBIBhtq0Jr53pRCaliyRRBG9rng=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Suno AI V5 is INSANE - Suno Studio, MIDI Stems, New Remaster, Hooks</h3>
-                                    <p>AIAutomationLabs, 55 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='28'>
-                            <div class='hero'>
-                                <div id='player-ObRsPL35-pI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>When Will AI Make Scientific Discoveries?</h3>
-                                    <p>AIDailyBrief, 56 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='29'>
-                            <div class='hero'>
-                                <div id='player-Zn1PW_vmwFA'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 Is INSANE! (How to REMOVE the Watermark)</h3>
-                                    <p>AdrianViralAIMarketing, 57 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='30'>
-                            <div class='hero'>
-                                <div id='player-slALvyUuPA4'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/U4AE38fpp0B35ULJQlb8XP1NnIL0Y6NmBiniM9z7qiaGA_Vg4qD_tAldiNq2_nxWv-LygmOOJQ=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora Is More Powerful Than You Thought</h3>
-                                    <p>TheoreticallyMedia, 58 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='31'>
-                            <div class='hero'>
-                                <div id='player-eUr3LHjcokU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>SORA 2 Just Broke Reality and the Internet Exploded (Gone Too Far)</h3>
-                                    <p>airevolutionx, 58 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='32'>
-                            <div class='hero'>
-                                <div id='player-Xt0oupsq9Jc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>The NEW Way People Are Making Money With Perplexity AI</h3>
-                                    <p>NickPonte808, 63 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='33'>
-                            <div class='hero'>
-                                <div id='player-H1u8OX1_dpo'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/CLV3e-g4l-NxgwITgGJYhvQcc00q_PDoGLO_PjNT1dAoBs8Kg19n6ahh9tzPsqhi7J5AZQwTMps=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 INSANE Product Videos! (How To ACCESS SORA 2 For FREE)</h3>
-                                    <p>thomaslundstrm, 63 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='34'>
-                            <div class='hero'>
-                                <div id='player-FOdI06UQumI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Singapore&#039;s SECRET AI Music Generator Will DESTROY The Music Industry</h3>
-                                    <p>brainprojectx, 64 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='35'>
-                            <div class='hero'>
-                                <div id='player-RJ2eqkk_JxI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/5_3VwTn9YD0bH3TtcY8ZNrxmsQkUkZl8OxV1djiAyMeYd8pU4UVaCOChNXlrOLL9LLoq_-SvMg=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Nano Banana Officially in Photoshop: 50+ EPIC Uses!</h3>
-                                    <p>PiXimperfect, 64 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='36'>
-                            <div class='hero'>
-                                <div id='player-zIcqQ9HNmDU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/e_RPj4GPULtytcX-hBDLfczyrnig7FRdICa8BjtvaR1GRUs4BlaXBghqrUipqgjkyOdSpu1IJA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 - OpenAI&#039;s TikTok</h3>
-                                    <p>samwitteveenai, 66 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='37'>
-                            <div class='hero'>
-                                <div id='player-oXX9vCC-yb8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How to *ACTUALLY* get things done | 6 productivity tips that worked for me!</h3>
-                                    <p>toolfinderhq, 66 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='38'>
-                            <div class='hero'>
-                                <div id='player-yyl0rDT38PM'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ZvhtfNEUPtQv3sLp9esMrY4KZ899xlTHhirFcF6X1LoLJSCQIRDD80cILJcaw1czth7OdEL79Q=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>REACTING to 2022 Ai Art for Print on Demand (HORROR)</h3>
-                                    <p>PhilipAnders, 66 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='39'>
-                            <div class='hero'>
-                                <div id='player-KQdvjLRnGnU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/1ZG1JDuIjuaYKdQ7GNxv2JVEOPT6wllFv-YTIU2-2uytBAvntGhcHRJZj8YgO7E1GAmhNR_1kQ=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Easy Ways To Add YOUR FACE To Midjourney Images (for UNIQUE AI Art!)</h3>
-                                    <p>WadeMcMaster, 66 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='40'>
-                            <div class='hero'>
-                                <div id='player-W52qBo14toA'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 Tested To The Limits + Invite Codes &amp; How to Access (Full Tutorial)</h3>
-                                    <p>TechTutorZones, 67 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='41'>
-                            <div class='hero'>
-                                <div id='player-FL4K_t9Uz9o'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>The EASIEST Way To Make Money With ChatGPT in 2025 (Step by Step)</h3>
-                                    <p>PaulJLipsky, 67 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='42'>
-                            <div class='hero'>
-                                <div id='player-jXNxIbYM7wI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How to Access Sora 2 for FREE (Unlimited invite codes!)</h3>
-                                    <p>RandomAI_ss, 68 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='43'>
-                            <div class='hero'>
-                                <div id='player-3wppS0bcQps'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>OpenAI&#039;s NEW Sora 2 Is INSANE!</h3>
-                                    <p>NickPonte808, 74 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='44'>
-                            <div class='hero'>
-                                <div id='player-El-G4cO4x4I'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2… wtf</h3>
-                                    <p>theAIsearch, 78 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='45'>
-                            <div class='hero'>
-                                <div id='player-L09kacrneOc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How To Build AI Agents To Automate EVERYTHING (n8n tutorial)</h3>
-                                    <p>mreflow, 80 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='46'>
-                            <div class='hero'>
-                                <div id='player-Ke0yXxDUdWQ'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>OpenAI’s Sora 2 Sparks a Brainrot Rebellion</h3>
-                                    <p>AIDailyBrief, 80 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='47'>
-                            <div class='hero'>
-                                <div id='player-qCOAOK40l6k'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/7PxvUtwA8sjuxwyTVDuAwmHYzvdA0VCHfmxvVipLeynuaAXK_Mh4v7f8-H7VOBzR4c3eev9Xbco=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>A New Midjourney Experience Soon? | Oct. 1st</h3>
-                                    <p>FutureTechPilot, 83 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='48'>
-                            <div class='hero'>
-                                <div id='player-FRt2erUbSA8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>AI SHOCKS The World This Month: Unitree Anti-Gravity Robot, ChatGPT Upgrade, Chrome AI...</h3>
-                                    <p>airevolutionx, 84 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='49'>
-                            <div class='hero'>
-                                <div id='player-s1ykViUikTU'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/QIYXdEMD970-oV8nd2gKHxPlQ1-BOmJc7EJhgIGcQPlTFopvFPCHDzkyfZIfEFrdCs8wu2Gc8g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Open AI&#039;s Sora 2 made me rethink what&#039;s possible.</h3>
-                                    <p>MattVidPro, 85 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='50'>
-                            <div class='hero'>
-                                <div id='player-A4Ktp9o8Wbg'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>SORA 2 Is INSANE!  How To ACCESS SORA 2 For FREE with Invite code</h3>
-                                    <p>Dankieft, 85 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='51'>
-                            <div class='hero'>
-                                <div id='player-hkSj-QapfZo'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/ytc/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>OpenAI’s new slop machine is open for business…</h3>
-                                    <p>Fireship, 86 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='52'>
-                            <div class='hero'>
-                                <div id='player-OsouEqM33mc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Nobody’s Talking About This Gemini Feature (But They Should)</h3>
-                                    <p>curiousrefuge, 86 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='53'>
-                            <div class='hero'>
-                                <div id='player-hhblUK-H1Ok'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/HwSrvmTnA4MLoWlCuWFpbSN9R6Ybe9C08E14L_Q-A6CEQZjyr5eml9h5nagM02N6gf40T0jp=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>UPDATE: Kling 2.5 Turbo – Top AI Video Generator &amp; Kling Lab</h3>
-                                    <p>AI.NowYKnow, 86 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='54'>
-                            <div class='hero'>
-                                <div id='player-jqhnplwGUK0'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>The AI Cost Performance Frontier Keeps Improving</h3>
-                                    <p>AIDailyBrief, 88 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='55'>
-                            <div class='hero'>
-                                <div id='player-7JekC_Gq8VM'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>How to Create Cinematic AI Films with Kling 2.5 Turbo</h3>
-                                    <p>elevenlabsio, 89 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='56'>
-                            <div class='hero'>
-                                <div id='player-rWppu2KhWIc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 - It will only get more realistic from here</h3>
-                                    <p>AIExplained, 89 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='57'>
-                            <div class='hero'>
-                                <div id='player-PtoMK9Vo0gI'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Mem 2.0 is here!</h3>
-                                    <p>toolfinderhq, 90 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='58'>
-                            <div class='hero'>
-                                <div id='player-mbuyzVL5kpM'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/7xYIzjHUw7X4JsUjyrI2ywnrXzGDvl18Hhdi9MKzoIJkBQbitpBWzoC_5gAykHpjnP7-Wz-1cg=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Long Monetizable Videos with AI (Free &amp; Unlimited) 100% Legal</h3>
-                                    <p>malvaAI, 90 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='59'>
-                            <div class='hero'>
-                                <div id='player-Obws0EX_Ew8'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>People are actually creating INSANE AI videos using Sora 2.</h3>
-                                    <p>RandomAI_ss, 90 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='60'>
-                            <div class='hero'>
-                                <div id='player-uBTWW8s9Nhc'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Sora 2 is INSANE! Best AI Generated Videos Compilation</h3>
-                                    <p>TechTutorZones, 91 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='61'>
-                            <div class='hero'>
-                                <div id='player-lz8lRPY4Z9I'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/VaJed0E0MZJktGADfoogu4kotJ1xHfYtpgCDTyOt9c2TrOBWl16c0EAN-toDDHwc7IphDd9V7g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Midjourney Update | September 2025: NEW Style Explorer, V7.1 &amp; V8 Updates, User Profiles!</h3>
-                                    <p>woollyferncreative, 92 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class='card' data-index='62'>
-                            <div class='hero'>
-                                <div id='player-GfBPtZag0ag'></div>
-                            </div>
-                            <div class='about'>
-                                <div class='image'>
-                                    <img future='https://yt3.ggpht.com/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj'>
-                                </div>
-                                <div class='text'>
-                                    <h3>Claude Code 2.0: The Only Guide You Need</h3>
-                                    <p>engineerprompt, 92 hours ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div id='sidebar'>
+                <ul>
+                    </li>
+                        AI
+                    </li>
+                </ul>
+            </div><div id='main'><div id='videos'>
+                            <div class='card' data-index='0'>
+                                <div class='hero'>
+                                    <div id='player-bVxBrzSe3kA'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Open-source Sora 2, realtime AI video, new DeepSeek, Nanobanana upgrades, Claude 4.5, realtime TTS</h3>
+                                        <p>theAIsearch, 6 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='1'>
+                                <div class='hero'>
+                                    <div id='player-ueCvU5c8ZLk'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>I Tested ChatGPT As My Startup Cofounder for a Week - Here&#039;s My Grade</h3>
+                                        <p>AIDailyBrief, 7 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='2'>
+                                <div class='hero'>
+                                    <div id='player-f5mrzYpq49M'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>DeepSeek is BACK! New AI Model That Might Shake the Industry</h3>
+                                        <p>airevolutionx, 9 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='3'>
+                                <div class='hero'>
+                                    <div id='player-nt8gUax1Aj0'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How I&#039;d use Sora 2 + Claude to hit 1M+ views on AI videos</h3>
+                                        <p>GregIsenberg, 13 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='4'>
+                                <div class='hero'>
+                                    <div id='player-5BbNDct5BD8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 vs Veo 3 vs Kling 2.5 vs Wan 2.5: The ULTIMATE AI Video Generator Comparison</h3>
+                                        <p>TechTutorZones, 15 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='5'>
+                                <div class='hero'>
+                                    <div id='player-RZDP8pMuSD0'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Vibe Coding Comes to the Enterprise</h3>
+                                        <p>AIDailyBrief, 15 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='6'>
+                                <div class='hero'>
+                                    <div id='player-v35C2KbdH4w'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Google’s Hidden AI Shortcut Pays WEEKLY (Few Know This)</h3>
+                                        <p>NickPonte808, 16 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='7'>
+                                <div class='hero'>
+                                    <div id='player-EB4CbLg943c'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/5FkuZACLRvTFlc3SNpIuh0vHMK_d9dNqS1ktqJpwRpFs96SJuwyCYk1XMy4kHpRhkx3hnu4QXg=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>AI Slop vs Professional AI: The Right Way to Use AI as a Creative</h3>
+                                        <p>MidjourneyExperience, 26 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='8'>
+                                <div class='hero'>
+                                    <div id='player-n-lKw-hr4n4'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/cB79txKLgy_hLeHp_FRu9CPmIngQOkJVrMp_dLvHJH-NsoUDkJ-b_Z-381SmV9h5gmTzz9f_QA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Invoke - 10/03 Studio Session</h3>
+                                        <p>invokeai, 26 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='9'>
+                                <div class='hero'>
+                                    <div id='player-dIWovyRPOp8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 Videos on Autopilot 🚀 Free N8N Template (Veo 3 &amp; Wan 2.5 Killer!)</h3>
+                                        <p>AdrianViralAIMarketing, 30 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='10'>
+                                <div class='hero'>
+                                    <div id='player-mPWlKfRw1bM'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>New SHAPE SHIFTING AI Robot Is Freaking People Out</h3>
+                                        <p>airevolutionx, 34 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='11'>
+                                <div class='hero'>
+                                    <div id='player-lVDrHZY1mUc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Now You Can Buy Stuff in ChatGPT — But Does Anyone Want To?</h3>
+                                        <p>AIDailyBrief, 34 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='12'>
+                                <div class='hero'>
+                                    <div id='player-IjYKIqvTyXg'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>I gave away $1M to prove anyone can build with AI</h3>
+                                        <p>GregIsenberg, 34 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='13'>
+                                <div class='hero'>
+                                    <div id='player-lfSn8m21DpQ'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Is Sora 2 Worth the Hype?</h3>
+                                        <p>curiousrefuge, 35 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='14'>
+                                <div class='hero'>
+                                    <div id='player-budTmdQfXYU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>n8n Now Runs My ENTIRE Homelab</h3>
+                                        <p>NetworkChuck, 38 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='15'>
+                                <div class='hero'>
+                                    <div id='player-WI4T-G83Bg8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>These OpenAI Releases Are INSANE &amp; More AI Use Cases</h3>
+                                        <p>aiadvantage, 39 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='16'>
+                                <div class='hero'>
+                                    <div id='player-ovpZ4m6yV6M'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Create Viral Hooks with SORA 2 Cameos (+ access codes)</h3>
+                                        <p>elevenlabsio, 40 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='17'>
+                                <div class='hero'>
+                                    <div id='player-BnkWIHWCE2U'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 PRO is Here, FREE &amp; UNLIMITED... How to get INVITE CODES From Anywhere</h3>
+                                        <p>brainprojectx, 40 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='18'>
+                                <div class='hero'>
+                                    <div id='player-SquU4Bpc73Y'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Alibaba is going all in on Qwen…</h3>
+                                        <p>Fireship, 40 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='19'>
+                                <div class='hero'>
+                                    <div id='player-UAMY7fU7dxs'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/9jBZ5tqt359I1u1yX5cXLeiAru8VZsZtrhAbUlY0z_uDFosIsv71quTR5rxgTPCB5R_17CDHnw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How to Use Nano Banana In Photoshop (TUTORIAL)</h3>
+                                        <p>TaylorBayStudios, 41 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='20'>
+                                <div class='hero'>
+                                    <div id='player-mYd8VgGtw5A'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>OpenAI’s Sora 2: Future of Media or AI SLOPOCALYPSE??</h3>
+                                        <p>AIForHumansShow, 42 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='21'>
+                                <div class='hero'>
+                                    <div id='player-pgR0gSh7i2M'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/p39dy5K7y1p4S83eyGKAIGtKq-z5-jjGCNJneNMMlP5nWS7YKgrGeG02PMWxZiTvEUFeTOWGseg=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How I used OpenArt Story to create a BUMPIN Music Video</h3>
+                                        <p>openart_ai, 42 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='22'>
+                                <div class='hero'>
+                                    <div id='player-y91cq1RYR9c'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Nd14uY9un3LNeAaH3fjOkZfc7ZQ4-OPoXIorNQp6CQ5QheKzlwAsMQCJttyh-exhYbb7ZZRXrTo=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>I Launched a Print on Demand Product at the Airport in 10 Minutes</h3>
+                                        <p>GeorgeDMcConnell, 43 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='23'>
+                                <div class='hero'>
+                                    <div id='player-yo6Lu5RpZXM'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>US Gov&#039;t: &quot;DeepSeek Sucks, Actually&quot;</h3>
+                                        <p>AIDailyBrief, 43 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='24'>
+                                <div class='hero'>
+                                    <div id='player-nr-nrx8vlh8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How To Get SORA 2 Cameo App for FREE Anywhere in the WORLD</h3>
+                                        <p>Dankieft, 43 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='25'>
+                                <div class='hero'>
+                                    <div id='player-B4uD9z6i_IU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Vibe Planning: The Smarter Way to Code with AI Agents</h3>
+                                        <p>engineerprompt, 44 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='26'>
+                                <div class='hero'>
+                                    <div id='player-hRvghQwSWPI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora2 is NOW in n8n — OpenAI&#039;s Veo3 x Wan2.5 Killer (no-code AI automation tutorial 🥚)</h3>
+                                        <p>RoboNuggets, 46 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='27'>
+                                <div class='hero'>
+                                    <div id='player-q80g1qW7eNA'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/O0uJqRAkVl5DQfTUFpwF39RV7k9obeNKvdtTUDjmUkDLu9zjBIBhtq0Jr53pRCaliyRRBG9rng=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Suno AI V5 is INSANE - Suno Studio, MIDI Stems, New Remaster, Hooks</h3>
+                                        <p>AIAutomationLabs, 55 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='28'>
+                                <div class='hero'>
+                                    <div id='player-ObRsPL35-pI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>When Will AI Make Scientific Discoveries?</h3>
+                                        <p>AIDailyBrief, 56 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='29'>
+                                <div class='hero'>
+                                    <div id='player-Zn1PW_vmwFA'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 Is INSANE! (How to REMOVE the Watermark)</h3>
+                                        <p>AdrianViralAIMarketing, 57 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='30'>
+                                <div class='hero'>
+                                    <div id='player-slALvyUuPA4'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/U4AE38fpp0B35ULJQlb8XP1NnIL0Y6NmBiniM9z7qiaGA_Vg4qD_tAldiNq2_nxWv-LygmOOJQ=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora Is More Powerful Than You Thought</h3>
+                                        <p>TheoreticallyMedia, 58 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='31'>
+                                <div class='hero'>
+                                    <div id='player-eUr3LHjcokU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>SORA 2 Just Broke Reality and the Internet Exploded (Gone Too Far)</h3>
+                                        <p>airevolutionx, 58 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='32'>
+                                <div class='hero'>
+                                    <div id='player-Xt0oupsq9Jc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>The NEW Way People Are Making Money With Perplexity AI</h3>
+                                        <p>NickPonte808, 63 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='33'>
+                                <div class='hero'>
+                                    <div id='player-H1u8OX1_dpo'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/CLV3e-g4l-NxgwITgGJYhvQcc00q_PDoGLO_PjNT1dAoBs8Kg19n6ahh9tzPsqhi7J5AZQwTMps=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 INSANE Product Videos! (How To ACCESS SORA 2 For FREE)</h3>
+                                        <p>thomaslundstrm, 63 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='34'>
+                                <div class='hero'>
+                                    <div id='player-FOdI06UQumI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Singapore&#039;s SECRET AI Music Generator Will DESTROY The Music Industry</h3>
+                                        <p>brainprojectx, 64 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='35'>
+                                <div class='hero'>
+                                    <div id='player-RJ2eqkk_JxI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/5_3VwTn9YD0bH3TtcY8ZNrxmsQkUkZl8OxV1djiAyMeYd8pU4UVaCOChNXlrOLL9LLoq_-SvMg=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Nano Banana Officially in Photoshop: 50+ EPIC Uses!</h3>
+                                        <p>PiXimperfect, 64 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='36'>
+                                <div class='hero'>
+                                    <div id='player-zIcqQ9HNmDU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/e_RPj4GPULtytcX-hBDLfczyrnig7FRdICa8BjtvaR1GRUs4BlaXBghqrUipqgjkyOdSpu1IJA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 - OpenAI&#039;s TikTok</h3>
+                                        <p>samwitteveenai, 66 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='37'>
+                                <div class='hero'>
+                                    <div id='player-oXX9vCC-yb8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How to *ACTUALLY* get things done | 6 productivity tips that worked for me!</h3>
+                                        <p>toolfinderhq, 66 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='38'>
+                                <div class='hero'>
+                                    <div id='player-yyl0rDT38PM'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ZvhtfNEUPtQv3sLp9esMrY4KZ899xlTHhirFcF6X1LoLJSCQIRDD80cILJcaw1czth7OdEL79Q=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>REACTING to 2022 Ai Art for Print on Demand (HORROR)</h3>
+                                        <p>PhilipAnders, 66 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='39'>
+                                <div class='hero'>
+                                    <div id='player-KQdvjLRnGnU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/1ZG1JDuIjuaYKdQ7GNxv2JVEOPT6wllFv-YTIU2-2uytBAvntGhcHRJZj8YgO7E1GAmhNR_1kQ=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Easy Ways To Add YOUR FACE To Midjourney Images (for UNIQUE AI Art!)</h3>
+                                        <p>WadeMcMaster, 66 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='40'>
+                                <div class='hero'>
+                                    <div id='player-W52qBo14toA'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 Tested To The Limits + Invite Codes &amp; How to Access (Full Tutorial)</h3>
+                                        <p>TechTutorZones, 67 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='41'>
+                                <div class='hero'>
+                                    <div id='player-FL4K_t9Uz9o'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>The EASIEST Way To Make Money With ChatGPT in 2025 (Step by Step)</h3>
+                                        <p>PaulJLipsky, 67 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='42'>
+                                <div class='hero'>
+                                    <div id='player-jXNxIbYM7wI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How to Access Sora 2 for FREE (Unlimited invite codes!)</h3>
+                                        <p>RandomAI_ss, 68 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='43'>
+                                <div class='hero'>
+                                    <div id='player-3wppS0bcQps'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>OpenAI&#039;s NEW Sora 2 Is INSANE!</h3>
+                                        <p>NickPonte808, 74 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='44'>
+                                <div class='hero'>
+                                    <div id='player-El-G4cO4x4I'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2… wtf</h3>
+                                        <p>theAIsearch, 78 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='45'>
+                                <div class='hero'>
+                                    <div id='player-L09kacrneOc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How To Build AI Agents To Automate EVERYTHING (n8n tutorial)</h3>
+                                        <p>mreflow, 80 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='46'>
+                                <div class='hero'>
+                                    <div id='player-Ke0yXxDUdWQ'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>OpenAI’s Sora 2 Sparks a Brainrot Rebellion</h3>
+                                        <p>AIDailyBrief, 80 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='47'>
+                                <div class='hero'>
+                                    <div id='player-qCOAOK40l6k'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/7PxvUtwA8sjuxwyTVDuAwmHYzvdA0VCHfmxvVipLeynuaAXK_Mh4v7f8-H7VOBzR4c3eev9Xbco=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>A New Midjourney Experience Soon? | Oct. 1st</h3>
+                                        <p>FutureTechPilot, 84 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='48'>
+                                <div class='hero'>
+                                    <div id='player-FRt2erUbSA8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>AI SHOCKS The World This Month: Unitree Anti-Gravity Robot, ChatGPT Upgrade, Chrome AI...</h3>
+                                        <p>airevolutionx, 84 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='49'>
+                                <div class='hero'>
+                                    <div id='player-s1ykViUikTU'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/QIYXdEMD970-oV8nd2gKHxPlQ1-BOmJc7EJhgIGcQPlTFopvFPCHDzkyfZIfEFrdCs8wu2Gc8g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Open AI&#039;s Sora 2 made me rethink what&#039;s possible.</h3>
+                                        <p>MattVidPro, 85 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='50'>
+                                <div class='hero'>
+                                    <div id='player-A4Ktp9o8Wbg'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>SORA 2 Is INSANE!  How To ACCESS SORA 2 For FREE with Invite code</h3>
+                                        <p>Dankieft, 85 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='51'>
+                                <div class='hero'>
+                                    <div id='player-hkSj-QapfZo'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/ytc/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>OpenAI’s new slop machine is open for business…</h3>
+                                        <p>Fireship, 86 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='52'>
+                                <div class='hero'>
+                                    <div id='player-OsouEqM33mc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Nobody’s Talking About This Gemini Feature (But They Should)</h3>
+                                        <p>curiousrefuge, 86 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='53'>
+                                <div class='hero'>
+                                    <div id='player-hhblUK-H1Ok'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/HwSrvmTnA4MLoWlCuWFpbSN9R6Ybe9C08E14L_Q-A6CEQZjyr5eml9h5nagM02N6gf40T0jp=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>UPDATE: Kling 2.5 Turbo – Top AI Video Generator &amp; Kling Lab</h3>
+                                        <p>AI.NowYKnow, 86 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='54'>
+                                <div class='hero'>
+                                    <div id='player-jqhnplwGUK0'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>The AI Cost Performance Frontier Keeps Improving</h3>
+                                        <p>AIDailyBrief, 88 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='55'>
+                                <div class='hero'>
+                                    <div id='player-7JekC_Gq8VM'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>How to Create Cinematic AI Films with Kling 2.5 Turbo</h3>
+                                        <p>elevenlabsio, 89 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='56'>
+                                <div class='hero'>
+                                    <div id='player-rWppu2KhWIc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 - It will only get more realistic from here</h3>
+                                        <p>AIExplained, 89 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='57'>
+                                <div class='hero'>
+                                    <div id='player-PtoMK9Vo0gI'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Mem 2.0 is here!</h3>
+                                        <p>toolfinderhq, 90 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='58'>
+                                <div class='hero'>
+                                    <div id='player-mbuyzVL5kpM'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/7xYIzjHUw7X4JsUjyrI2ywnrXzGDvl18Hhdi9MKzoIJkBQbitpBWzoC_5gAykHpjnP7-Wz-1cg=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Long Monetizable Videos with AI (Free &amp; Unlimited) 100% Legal</h3>
+                                        <p>malvaAI, 90 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='59'>
+                                <div class='hero'>
+                                    <div id='player-Obws0EX_Ew8'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>People are actually creating INSANE AI videos using Sora 2.</h3>
+                                        <p>RandomAI_ss, 90 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='60'>
+                                <div class='hero'>
+                                    <div id='player-uBTWW8s9Nhc'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Sora 2 is INSANE! Best AI Generated Videos Compilation</h3>
+                                        <p>TechTutorZones, 91 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='61'>
+                                <div class='hero'>
+                                    <div id='player-lz8lRPY4Z9I'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/VaJed0E0MZJktGADfoogu4kotJ1xHfYtpgCDTyOt9c2TrOBWl16c0EAN-toDDHwc7IphDd9V7g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Midjourney Update | September 2025: NEW Style Explorer, V7.1 &amp; V8 Updates, User Profiles!</h3>
+                                        <p>woollyferncreative, 92 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class='card' data-index='62'>
+                                <div class='hero'>
+                                    <div id='player-GfBPtZag0ag'></div>
+                                </div>
+                                <div class='about'>
+                                    <div class='image'>
+                                        <img future='https://yt3.ggpht.com/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj'>
+                                    </div>
+                                    <div class='text'>
+                                        <h3>Claude Code 2.0: The Only Guide You Need</h3>
+                                        <p>engineerprompt, 92 hours ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div>
                 <script>
                     let tag = document.createElement("script");
                     tag.src = "https://www.youtube.com/iframe_api";
                     let firstScriptTag = document.getElementsByTagName("script")[0];
                     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
                     let players = [];
-                    let videos = [{"video_id":"bVxBrzSe3kA","video_title":"Open-source Sora 2, realtime AI video, new DeepSeek, Nanobanana upgrades, Claude 4.5, realtime TTS","video_image":"https:\/\/i.ytimg.com\/vi\/bVxBrzSe3kA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=bVxBrzSe3kA","channel_name":"theAIsearch","channel_link":"https:\/\/www.youtube.com\/@theAIsearch","channel_image":"https:\/\/yt3.ggpht.com\/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj","hours_ago":"6 hours ago","is_short":0,"timestamp":"1759631077","remove":0},{"video_id":"ueCvU5c8ZLk","video_title":"I Tested ChatGPT As My Startup Cofounder for a Week - Here's My Grade","video_image":"https:\/\/i.ytimg.com\/vi\/ueCvU5c8ZLk\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ueCvU5c8ZLk","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"7 hours ago","is_short":0,"timestamp":"1759625836","remove":0},{"video_id":"f5mrzYpq49M","video_title":"DeepSeek is BACK! New AI Model That Might Shake the Industry","video_image":"https:\/\/i.ytimg.com\/vi\/f5mrzYpq49M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=f5mrzYpq49M","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"9 hours ago","is_short":0,"timestamp":"1759618821","remove":0},{"video_id":"nt8gUax1Aj0","video_title":"How I'd use Sora 2 + Claude to hit 1M+ views on AI videos","video_image":"https:\/\/i.ytimg.com\/vi\/nt8gUax1Aj0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=nt8gUax1Aj0","channel_name":"GregIsenberg","channel_link":"https:\/\/www.youtube.com\/@GregIsenberg","channel_image":"https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"13 hours ago","is_short":0,"timestamp":"1759604701","remove":0},{"video_id":"5BbNDct5BD8","video_title":"Sora 2 vs Veo 3 vs Kling 2.5 vs Wan 2.5: The ULTIMATE AI Video Generator Comparison","video_image":"https:\/\/i.ytimg.com\/vi\/5BbNDct5BD8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=5BbNDct5BD8","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"15 hours ago","is_short":0,"timestamp":"1759597752","remove":0},{"video_id":"RZDP8pMuSD0","video_title":"Vibe Coding Comes to the Enterprise","video_image":"https:\/\/i.ytimg.com\/vi\/RZDP8pMuSD0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=RZDP8pMuSD0","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"15 hours ago","is_short":0,"timestamp":"1759597596","remove":0},{"video_id":"v35C2KbdH4w","video_title":"Google\u2019s Hidden AI Shortcut Pays WEEKLY (Few Know This)","video_image":"https:\/\/i.ytimg.com\/vi\/v35C2KbdH4w\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=v35C2KbdH4w","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"16 hours ago","is_short":0,"timestamp":"1759596584","remove":0},{"video_id":"EB4CbLg943c","video_title":"AI Slop vs Professional AI: The Right Way to Use AI as a Creative","video_image":"https:\/\/i.ytimg.com\/vi\/EB4CbLg943c\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=EB4CbLg943c","channel_name":"MidjourneyExperience","channel_link":"https:\/\/www.youtube.com\/@MidjourneyExperience","channel_image":"https:\/\/yt3.ggpht.com\/5FkuZACLRvTFlc3SNpIuh0vHMK_d9dNqS1ktqJpwRpFs96SJuwyCYk1XMy4kHpRhkx3hnu4QXg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"26 hours ago","is_short":0,"timestamp":"1759559181","remove":0},{"video_id":"n-lKw-hr4n4","video_title":"Invoke - 10\/03 Studio Session","video_image":"https:\/\/i.ytimg.com\/vi\/n-lKw-hr4n4\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=n-lKw-hr4n4","channel_name":"invokeai","channel_link":"https:\/\/www.youtube.com\/@invokeai","channel_image":"https:\/\/yt3.ggpht.com\/cB79txKLgy_hLeHp_FRu9CPmIngQOkJVrMp_dLvHJH-NsoUDkJ-b_Z-381SmV9h5gmTzz9f_QA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"26 hours ago","is_short":0,"timestamp":"1759557928","remove":0},{"video_id":"dIWovyRPOp8","video_title":"Sora 2 Videos on Autopilot \ud83d\ude80 Free N8N Template (Veo 3 & Wan 2.5 Killer!)","video_image":"https:\/\/i.ytimg.com\/vi\/dIWovyRPOp8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=dIWovyRPOp8","channel_name":"AdrianViralAIMarketing","channel_link":"https:\/\/www.youtube.com\/@AdrianViralAIMarketing","channel_image":"https:\/\/yt3.ggpht.com\/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"30 hours ago","is_short":0,"timestamp":"1759543112","remove":0},{"video_id":"mPWlKfRw1bM","video_title":"New SHAPE SHIFTING AI Robot Is Freaking People Out","video_image":"https:\/\/i.ytimg.com\/vi\/mPWlKfRw1bM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mPWlKfRw1bM","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759530751","remove":0},{"video_id":"lVDrHZY1mUc","video_title":"Now You Can Buy Stuff in ChatGPT \u2014 But Does Anyone Want To?","video_image":"https:\/\/i.ytimg.com\/vi\/lVDrHZY1mUc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lVDrHZY1mUc","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759530071","remove":0},{"video_id":"IjYKIqvTyXg","video_title":"I gave away $1M to prove anyone can build with AI","video_image":"https:\/\/i.ytimg.com\/vi\/IjYKIqvTyXg\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=IjYKIqvTyXg","channel_name":"GregIsenberg","channel_link":"https:\/\/www.youtube.com\/@GregIsenberg","channel_image":"https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759528832","remove":0},{"video_id":"lfSn8m21DpQ","video_title":"Is Sora 2 Worth the Hype?","video_image":"https:\/\/i.ytimg.com\/vi\/lfSn8m21DpQ\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lfSn8m21DpQ","channel_name":"curiousrefuge","channel_link":"https:\/\/www.youtube.com\/@curiousrefuge","channel_image":"https:\/\/yt3.ggpht.com\/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj","hours_ago":"35 hours ago","is_short":0,"timestamp":"1759525805","remove":0},{"video_id":"budTmdQfXYU","video_title":"n8n Now Runs My ENTIRE Homelab","video_image":"https:\/\/i.ytimg.com\/vi\/budTmdQfXYU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=budTmdQfXYU","channel_name":"NetworkChuck","channel_link":"https:\/\/www.youtube.com\/@NetworkChuck","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"38 hours ago","is_short":0,"timestamp":"1759515425","remove":0},{"video_id":"WI4T-G83Bg8","video_title":"These OpenAI Releases Are INSANE & More AI Use Cases","video_image":"https:\/\/i.ytimg.com\/vi\/WI4T-G83Bg8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=WI4T-G83Bg8","channel_name":"aiadvantage","channel_link":"https:\/\/www.youtube.com\/@aiadvantage","channel_image":"https:\/\/yt3.ggpht.com\/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"39 hours ago","is_short":0,"timestamp":"1759512950","remove":0},{"video_id":"ovpZ4m6yV6M","video_title":"Create Viral Hooks with SORA 2 Cameos (+ access codes)","video_image":"https:\/\/i.ytimg.com\/vi\/ovpZ4m6yV6M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ovpZ4m6yV6M","channel_name":"elevenlabsio","channel_link":"https:\/\/www.youtube.com\/@elevenlabsio","channel_image":"https:\/\/yt3.ggpht.com\/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759509553","remove":0},{"video_id":"BnkWIHWCE2U","video_title":"Sora 2 PRO is Here, FREE & UNLIMITED... How to get INVITE CODES From Anywhere","video_image":"https:\/\/i.ytimg.com\/vi\/BnkWIHWCE2U\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=BnkWIHWCE2U","channel_name":"brainprojectx","channel_link":"https:\/\/www.youtube.com\/@brainprojectx","channel_image":"https:\/\/yt3.ggpht.com\/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759509416","remove":0},{"video_id":"SquU4Bpc73Y","video_title":"Alibaba is going all in on Qwen\u2026","video_image":"https:\/\/i.ytimg.com\/vi\/SquU4Bpc73Y\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=SquU4Bpc73Y","channel_name":"Fireship","channel_link":"https:\/\/www.youtube.com\/@Fireship","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759507348","remove":0},{"video_id":"UAMY7fU7dxs","video_title":"How to Use Nano Banana In Photoshop (TUTORIAL)","video_image":"https:\/\/i.ytimg.com\/vi\/UAMY7fU7dxs\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=UAMY7fU7dxs","channel_name":"TaylorBayStudios","channel_link":"https:\/\/www.youtube.com\/@TaylorBayStudios","channel_image":"https:\/\/yt3.ggpht.com\/9jBZ5tqt359I1u1yX5cXLeiAru8VZsZtrhAbUlY0z_uDFosIsv71quTR5rxgTPCB5R_17CDHnw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"41 hours ago","is_short":0,"timestamp":"1759506077","remove":0},{"video_id":"mYd8VgGtw5A","video_title":"OpenAI\u2019s Sora 2: Future of Media or AI SLOPOCALYPSE??","video_image":"https:\/\/i.ytimg.com\/vi\/mYd8VgGtw5A\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mYd8VgGtw5A","channel_name":"AIForHumansShow","channel_link":"https:\/\/www.youtube.com\/@AIForHumansShow","channel_image":"https:\/\/yt3.ggpht.com\/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj","hours_ago":"42 hours ago","is_short":0,"timestamp":"1759502356","remove":0},{"video_id":"pgR0gSh7i2M","video_title":"How I used OpenArt Story to create a BUMPIN Music Video","video_image":"https:\/\/i.ytimg.com\/vi\/pgR0gSh7i2M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=pgR0gSh7i2M","channel_name":"openart_ai","channel_link":"https:\/\/www.youtube.com\/@openart_ai","channel_image":"https:\/\/yt3.ggpht.com\/p39dy5K7y1p4S83eyGKAIGtKq-z5-jjGCNJneNMMlP5nWS7YKgrGeG02PMWxZiTvEUFeTOWGseg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"42 hours ago","is_short":0,"timestamp":"1759499929","remove":0},{"video_id":"y91cq1RYR9c","video_title":"I Launched a Print on Demand Product at the Airport in 10 Minutes","video_image":"https:\/\/i.ytimg.com\/vi\/y91cq1RYR9c\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=y91cq1RYR9c","channel_name":"GeorgeDMcConnell","channel_link":"https:\/\/www.youtube.com\/@GeorgeDMcConnell","channel_image":"https:\/\/yt3.ggpht.com\/Nd14uY9un3LNeAaH3fjOkZfc7ZQ4-OPoXIorNQp6CQ5QheKzlwAsMQCJttyh-exhYbb7ZZRXrTo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759498265","remove":0},{"video_id":"yo6Lu5RpZXM","video_title":"US Gov't: \"DeepSeek Sucks, Actually\"","video_image":"https:\/\/i.ytimg.com\/vi\/yo6Lu5RpZXM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=yo6Lu5RpZXM","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759497991","remove":0},{"video_id":"nr-nrx8vlh8","video_title":"How To Get SORA 2 Cameo App for FREE Anywhere in the WORLD","video_image":"https:\/\/i.ytimg.com\/vi\/nr-nrx8vlh8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=nr-nrx8vlh8","channel_name":"Dankieft","channel_link":"https:\/\/www.youtube.com\/@Dankieft","channel_image":"https:\/\/yt3.ggpht.com\/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759497563","remove":0},{"video_id":"B4uD9z6i_IU","video_title":"Vibe Planning: The Smarter Way to Code with AI Agents","video_image":"https:\/\/i.ytimg.com\/vi\/B4uD9z6i_IU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=B4uD9z6i_IU","channel_name":"engineerprompt","channel_link":"https:\/\/www.youtube.com\/@engineerprompt","channel_image":"https:\/\/yt3.ggpht.com\/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"44 hours ago","is_short":0,"timestamp":"1759495501","remove":0},{"video_id":"hRvghQwSWPI","video_title":"Sora2 is NOW in n8n \u2014 OpenAI's Veo3 x Wan2.5 Killer (no-code AI automation tutorial \ud83e\udd5a)","video_image":"https:\/\/i.ytimg.com\/vi\/hRvghQwSWPI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hRvghQwSWPI","channel_name":"RoboNuggets","channel_link":"https:\/\/www.youtube.com\/@RoboNuggets","channel_image":"https:\/\/yt3.ggpht.com\/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"46 hours ago","is_short":0,"timestamp":"1759485521","remove":0},{"video_id":"q80g1qW7eNA","video_title":"Suno AI V5 is INSANE - Suno Studio, MIDI Stems, New Remaster, Hooks","video_image":"https:\/\/i.ytimg.com\/vi\/q80g1qW7eNA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=q80g1qW7eNA","channel_name":"AIAutomationLabs","channel_link":"https:\/\/www.youtube.com\/@AIAutomationLabs","channel_image":"https:\/\/yt3.ggpht.com\/O0uJqRAkVl5DQfTUFpwF39RV7k9obeNKvdtTUDjmUkDLu9zjBIBhtq0Jr53pRCaliyRRBG9rng=s88-c-k-c0x00ffffff-no-rj","hours_ago":"55 hours ago","is_short":0,"timestamp":"1759453256","remove":0},{"video_id":"ObRsPL35-pI","video_title":"When Will AI Make Scientific Discoveries?","video_image":"https:\/\/i.ytimg.com\/vi\/ObRsPL35-pI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ObRsPL35-pI","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"56 hours ago","is_short":0,"timestamp":"1759449606","remove":0},{"video_id":"Zn1PW_vmwFA","video_title":"Sora 2 Is INSANE! (How to REMOVE the Watermark)","video_image":"https:\/\/i.ytimg.com\/vi\/Zn1PW_vmwFA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Zn1PW_vmwFA","channel_name":"AdrianViralAIMarketing","channel_link":"https:\/\/www.youtube.com\/@AdrianViralAIMarketing","channel_image":"https:\/\/yt3.ggpht.com\/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"57 hours ago","is_short":0,"timestamp":"1759448315","remove":0},{"video_id":"slALvyUuPA4","video_title":"Sora Is More Powerful Than You Thought","video_image":"https:\/\/i.ytimg.com\/vi\/slALvyUuPA4\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=slALvyUuPA4","channel_name":"TheoreticallyMedia","channel_link":"https:\/\/www.youtube.com\/@TheoreticallyMedia","channel_image":"https:\/\/yt3.ggpht.com\/U4AE38fpp0B35ULJQlb8XP1NnIL0Y6NmBiniM9z7qiaGA_Vg4qD_tAldiNq2_nxWv-LygmOOJQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"58 hours ago","is_short":0,"timestamp":"1759444900","remove":0},{"video_id":"eUr3LHjcokU","video_title":"SORA 2 Just Broke Reality and the Internet Exploded (Gone Too Far)","video_image":"https:\/\/i.ytimg.com\/vi\/eUr3LHjcokU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=eUr3LHjcokU","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"58 hours ago","is_short":0,"timestamp":"1759442452","remove":0},{"video_id":"Xt0oupsq9Jc","video_title":"The NEW Way People Are Making Money With Perplexity AI","video_image":"https:\/\/i.ytimg.com\/vi\/Xt0oupsq9Jc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Xt0oupsq9Jc","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"63 hours ago","is_short":0,"timestamp":"1759427105","remove":0},{"video_id":"H1u8OX1_dpo","video_title":"Sora 2 INSANE Product Videos! (How To ACCESS SORA 2 For FREE)","video_image":"https:\/\/i.ytimg.com\/vi\/H1u8OX1_dpo\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=H1u8OX1_dpo","channel_name":"thomaslundstrm","channel_link":"https:\/\/www.youtube.com\/@thomaslundstrm","channel_image":"https:\/\/yt3.ggpht.com\/CLV3e-g4l-NxgwITgGJYhvQcc00q_PDoGLO_PjNT1dAoBs8Kg19n6ahh9tzPsqhi7J5AZQwTMps=s88-c-k-c0x00ffffff-no-rj","hours_ago":"63 hours ago","is_short":0,"timestamp":"1759424162","remove":0},{"video_id":"FOdI06UQumI","video_title":"Singapore's SECRET AI Music Generator Will DESTROY The Music Industry","video_image":"https:\/\/i.ytimg.com\/vi\/FOdI06UQumI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FOdI06UQumI","channel_name":"brainprojectx","channel_link":"https:\/\/www.youtube.com\/@brainprojectx","channel_image":"https:\/\/yt3.ggpht.com\/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"64 hours ago","is_short":0,"timestamp":"1759422781","remove":0},{"video_id":"RJ2eqkk_JxI","video_title":"Nano Banana Officially in Photoshop: 50+ EPIC Uses!","video_image":"https:\/\/i.ytimg.com\/vi\/RJ2eqkk_JxI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=RJ2eqkk_JxI","channel_name":"PiXimperfect","channel_link":"https:\/\/www.youtube.com\/@PiXimperfect","channel_image":"https:\/\/yt3.ggpht.com\/5_3VwTn9YD0bH3TtcY8ZNrxmsQkUkZl8OxV1djiAyMeYd8pU4UVaCOChNXlrOLL9LLoq_-SvMg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"64 hours ago","is_short":0,"timestamp":"1759421401","remove":0},{"video_id":"zIcqQ9HNmDU","video_title":"Sora 2 - OpenAI's TikTok","video_image":"https:\/\/i.ytimg.com\/vi\/zIcqQ9HNmDU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=zIcqQ9HNmDU","channel_name":"samwitteveenai","channel_link":"https:\/\/www.youtube.com\/@samwitteveenai","channel_image":"https:\/\/yt3.ggpht.com\/e_RPj4GPULtytcX-hBDLfczyrnig7FRdICa8BjtvaR1GRUs4BlaXBghqrUipqgjkyOdSpu1IJA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759415445","remove":0},{"video_id":"oXX9vCC-yb8","video_title":"How to *ACTUALLY* get things done | 6 productivity tips that worked for me!","video_image":"https:\/\/i.ytimg.com\/vi\/oXX9vCC-yb8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=oXX9vCC-yb8","channel_name":"toolfinderhq","channel_link":"https:\/\/www.youtube.com\/@toolfinderhq","channel_image":"https:\/\/yt3.ggpht.com\/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759415010","remove":0},{"video_id":"yyl0rDT38PM","video_title":"REACTING to 2022 Ai Art for Print on Demand (HORROR)","video_image":"https:\/\/i.ytimg.com\/vi\/yyl0rDT38PM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=yyl0rDT38PM","channel_name":"PhilipAnders","channel_link":"https:\/\/www.youtube.com\/@PhilipAnders","channel_image":"https:\/\/yt3.ggpht.com\/ZvhtfNEUPtQv3sLp9esMrY4KZ899xlTHhirFcF6X1LoLJSCQIRDD80cILJcaw1czth7OdEL79Q=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759414517","remove":0},{"video_id":"KQdvjLRnGnU","video_title":"Easy Ways To Add YOUR FACE To Midjourney Images (for UNIQUE AI Art!)","video_image":"https:\/\/i.ytimg.com\/vi\/KQdvjLRnGnU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=KQdvjLRnGnU","channel_name":"WadeMcMaster","channel_link":"https:\/\/www.youtube.com\/@WadeMcMaster","channel_image":"https:\/\/yt3.ggpht.com\/1ZG1JDuIjuaYKdQ7GNxv2JVEOPT6wllFv-YTIU2-2uytBAvntGhcHRJZj8YgO7E1GAmhNR_1kQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759413635","remove":0},{"video_id":"W52qBo14toA","video_title":"Sora 2 Tested To The Limits + Invite Codes & How to Access (Full Tutorial)","video_image":"https:\/\/i.ytimg.com\/vi\/W52qBo14toA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=W52qBo14toA","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"67 hours ago","is_short":0,"timestamp":"1759411994","remove":0},{"video_id":"FL4K_t9Uz9o","video_title":"The EASIEST Way To Make Money With ChatGPT in 2025 (Step by Step)","video_image":"https:\/\/i.ytimg.com\/vi\/FL4K_t9Uz9o\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FL4K_t9Uz9o","channel_name":"PaulJLipsky","channel_link":"https:\/\/www.youtube.com\/@PaulJLipsky","channel_image":"https:\/\/yt3.ggpht.com\/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"67 hours ago","is_short":0,"timestamp":"1759410033","remove":0},{"video_id":"jXNxIbYM7wI","video_title":"How to Access Sora 2 for FREE (Unlimited invite codes!)","video_image":"https:\/\/i.ytimg.com\/vi\/jXNxIbYM7wI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=jXNxIbYM7wI","channel_name":"RandomAI_ss","channel_link":"https:\/\/www.youtube.com\/@RandomAI_ss","channel_image":"https:\/\/yt3.ggpht.com\/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj","hours_ago":"68 hours ago","is_short":0,"timestamp":"1759407749","remove":0},{"video_id":"3wppS0bcQps","video_title":"OpenAI's NEW Sora 2 Is INSANE!","video_image":"https:\/\/i.ytimg.com\/vi\/3wppS0bcQps\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=3wppS0bcQps","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"74 hours ago","is_short":0,"timestamp":"1759387612","remove":0},{"video_id":"El-G4cO4x4I","video_title":"Sora 2\u2026 wtf","video_image":"https:\/\/i.ytimg.com\/vi\/El-G4cO4x4I\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=El-G4cO4x4I","channel_name":"theAIsearch","channel_link":"https:\/\/www.youtube.com\/@theAIsearch","channel_image":"https:\/\/yt3.ggpht.com\/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj","hours_ago":"78 hours ago","is_short":0,"timestamp":"1759370496","remove":0},{"video_id":"L09kacrneOc","video_title":"How To Build AI Agents To Automate EVERYTHING (n8n tutorial)","video_image":"https:\/\/i.ytimg.com\/vi\/L09kacrneOc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=L09kacrneOc","channel_name":"mreflow","channel_link":"https:\/\/www.youtube.com\/@mreflow","channel_image":"https:\/\/yt3.ggpht.com\/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s88-c-k-c0x00ffffff-no-rj","hours_ago":"80 hours ago","is_short":0,"timestamp":"1759364745","remove":0},{"video_id":"Ke0yXxDUdWQ","video_title":"OpenAI\u2019s Sora 2 Sparks a Brainrot Rebellion","video_image":"https:\/\/i.ytimg.com\/vi\/Ke0yXxDUdWQ\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Ke0yXxDUdWQ","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"80 hours ago","is_short":0,"timestamp":"1759363206","remove":0},{"video_id":"qCOAOK40l6k","video_title":"A New Midjourney Experience Soon? | Oct. 1st","video_image":"https:\/\/i.ytimg.com\/vi\/qCOAOK40l6k\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=qCOAOK40l6k","channel_name":"FutureTechPilot","channel_link":"https:\/\/www.youtube.com\/@FutureTechPilot","channel_image":"https:\/\/yt3.ggpht.com\/7PxvUtwA8sjuxwyTVDuAwmHYzvdA0VCHfmxvVipLeynuaAXK_Mh4v7f8-H7VOBzR4c3eev9Xbco=s88-c-k-c0x00ffffff-no-rj","hours_ago":"83 hours ago","is_short":0,"timestamp":"1759351859","remove":0},{"video_id":"FRt2erUbSA8","video_title":"AI SHOCKS The World This Month: Unitree Anti-Gravity Robot, ChatGPT Upgrade, Chrome AI...","video_image":"https:\/\/i.ytimg.com\/vi\/FRt2erUbSA8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FRt2erUbSA8","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"84 hours ago","is_short":0,"timestamp":"1759348982","remove":0},{"video_id":"s1ykViUikTU","video_title":"Open AI's Sora 2 made me rethink what's possible.","video_image":"https:\/\/i.ytimg.com\/vi\/s1ykViUikTU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=s1ykViUikTU","channel_name":"MattVidPro","channel_link":"https:\/\/www.youtube.com\/@MattVidPro","channel_image":"https:\/\/yt3.ggpht.com\/QIYXdEMD970-oV8nd2gKHxPlQ1-BOmJc7EJhgIGcQPlTFopvFPCHDzkyfZIfEFrdCs8wu2Gc8g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"85 hours ago","is_short":0,"timestamp":"1759348084","remove":0},{"video_id":"A4Ktp9o8Wbg","video_title":"SORA 2 Is INSANE!  How To ACCESS SORA 2 For FREE with Invite code","video_image":"https:\/\/i.ytimg.com\/vi\/A4Ktp9o8Wbg\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=A4Ktp9o8Wbg","channel_name":"Dankieft","channel_link":"https:\/\/www.youtube.com\/@Dankieft","channel_image":"https:\/\/yt3.ggpht.com\/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"85 hours ago","is_short":0,"timestamp":"1759346751","remove":0},{"video_id":"hkSj-QapfZo","video_title":"OpenAI\u2019s new slop machine is open for business\u2026","video_image":"https:\/\/i.ytimg.com\/vi\/hkSj-QapfZo\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hkSj-QapfZo","channel_name":"Fireship","channel_link":"https:\/\/www.youtube.com\/@Fireship","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759343906","remove":0},{"video_id":"OsouEqM33mc","video_title":"Nobody\u2019s Talking About This Gemini Feature (But They Should)","video_image":"https:\/\/i.ytimg.com\/vi\/OsouEqM33mc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=OsouEqM33mc","channel_name":"curiousrefuge","channel_link":"https:\/\/www.youtube.com\/@curiousrefuge","channel_image":"https:\/\/yt3.ggpht.com\/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759343606","remove":0},{"video_id":"hhblUK-H1Ok","video_title":"UPDATE: Kling 2.5 Turbo \u2013 Top AI Video Generator & Kling Lab","video_image":"https:\/\/i.ytimg.com\/vi\/hhblUK-H1Ok\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hhblUK-H1Ok","channel_name":"AI.NowYKnow","channel_link":"https:\/\/www.youtube.com\/@AI.NowYKnow","channel_image":"https:\/\/yt3.ggpht.com\/HwSrvmTnA4MLoWlCuWFpbSN9R6Ybe9C08E14L_Q-A6CEQZjyr5eml9h5nagM02N6gf40T0jp=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759342574","remove":0},{"video_id":"jqhnplwGUK0","video_title":"The AI Cost Performance Frontier Keeps Improving","video_image":"https:\/\/i.ytimg.com\/vi\/jqhnplwGUK0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=jqhnplwGUK0","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"88 hours ago","is_short":0,"timestamp":"1759335870","remove":0},{"video_id":"7JekC_Gq8VM","video_title":"How to Create Cinematic AI Films with Kling 2.5 Turbo","video_image":"https:\/\/i.ytimg.com\/vi\/7JekC_Gq8VM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=7JekC_Gq8VM","channel_name":"elevenlabsio","channel_link":"https:\/\/www.youtube.com\/@elevenlabsio","channel_image":"https:\/\/yt3.ggpht.com\/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"89 hours ago","is_short":0,"timestamp":"1759332503","remove":0},{"video_id":"rWppu2KhWIc","video_title":"Sora 2 - It will only get more realistic from here","video_image":"https:\/\/i.ytimg.com\/vi\/rWppu2KhWIc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=rWppu2KhWIc","channel_name":"AIExplained","channel_link":"https:\/\/www.youtube.com\/@aiexplained-official","channel_image":"https:\/\/yt3.ggpht.com\/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"89 hours ago","is_short":0,"timestamp":"1759330843","remove":0},{"video_id":"PtoMK9Vo0gI","video_title":"Mem 2.0 is here!","video_image":"https:\/\/i.ytimg.com\/vi\/PtoMK9Vo0gI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=PtoMK9Vo0gI","channel_name":"toolfinderhq","channel_link":"https:\/\/www.youtube.com\/@toolfinderhq","channel_image":"https:\/\/yt3.ggpht.com\/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759330157","remove":0},{"video_id":"mbuyzVL5kpM","video_title":"Long Monetizable Videos with AI (Free & Unlimited) 100% Legal","video_image":"https:\/\/i.ytimg.com\/vi\/mbuyzVL5kpM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mbuyzVL5kpM","channel_name":"malvaAI","channel_link":"https:\/\/www.youtube.com\/@malvaAI","channel_image":"https:\/\/yt3.ggpht.com\/7xYIzjHUw7X4JsUjyrI2ywnrXzGDvl18Hhdi9MKzoIJkBQbitpBWzoC_5gAykHpjnP7-Wz-1cg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759327219","remove":0},{"video_id":"Obws0EX_Ew8","video_title":"People are actually creating INSANE AI videos using Sora 2.","video_image":"https:\/\/i.ytimg.com\/vi\/Obws0EX_Ew8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Obws0EX_Ew8","channel_name":"RandomAI_ss","channel_link":"https:\/\/www.youtube.com\/@RandomAI_ss","channel_image":"https:\/\/yt3.ggpht.com\/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759327063","remove":0},{"video_id":"uBTWW8s9Nhc","video_title":"Sora 2 is INSANE! Best AI Generated Videos Compilation","video_image":"https:\/\/i.ytimg.com\/vi\/uBTWW8s9Nhc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=uBTWW8s9Nhc","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"91 hours ago","is_short":0,"timestamp":"1759326605","remove":0},{"video_id":"lz8lRPY4Z9I","video_title":"Midjourney Update | September 2025: NEW Style Explorer, V7.1 & V8 Updates, User Profiles!","video_image":"https:\/\/i.ytimg.com\/vi\/lz8lRPY4Z9I\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lz8lRPY4Z9I","channel_name":"woollyferncreative","channel_link":"https:\/\/www.youtube.com\/@woollyferncreative","channel_image":"https:\/\/yt3.ggpht.com\/VaJed0E0MZJktGADfoogu4kotJ1xHfYtpgCDTyOt9c2TrOBWl16c0EAN-toDDHwc7IphDd9V7g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"92 hours ago","is_short":0,"timestamp":"1759322972","remove":0},{"video_id":"GfBPtZag0ag","video_title":"Claude Code 2.0: The Only Guide You Need","video_image":"https:\/\/i.ytimg.com\/vi\/GfBPtZag0ag\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=GfBPtZag0ag","channel_name":"engineerprompt","channel_link":"https:\/\/www.youtube.com\/@engineerprompt","channel_image":"https:\/\/yt3.ggpht.com\/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"92 hours ago","is_short":0,"timestamp":"1759321830","remove":0}]
+                    let videos = [{"video_id":"bVxBrzSe3kA","video_title":"Open-source Sora 2, realtime AI video, new DeepSeek, Nanobanana upgrades, Claude 4.5, realtime TTS","video_image":"https:\/\/i.ytimg.com\/vi\/bVxBrzSe3kA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=bVxBrzSe3kA","channel_name":"theAIsearch","channel_link":"https:\/\/www.youtube.com\/@theAIsearch","channel_image":"https:\/\/yt3.ggpht.com\/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj","hours_ago":"6 hours ago","is_short":0,"timestamp":"1759631077","remove":0},{"video_id":"ueCvU5c8ZLk","video_title":"I Tested ChatGPT As My Startup Cofounder for a Week - Here's My Grade","video_image":"https:\/\/i.ytimg.com\/vi\/ueCvU5c8ZLk\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ueCvU5c8ZLk","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"7 hours ago","is_short":0,"timestamp":"1759625836","remove":0},{"video_id":"f5mrzYpq49M","video_title":"DeepSeek is BACK! New AI Model That Might Shake the Industry","video_image":"https:\/\/i.ytimg.com\/vi\/f5mrzYpq49M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=f5mrzYpq49M","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"9 hours ago","is_short":0,"timestamp":"1759618821","remove":0},{"video_id":"nt8gUax1Aj0","video_title":"How I'd use Sora 2 + Claude to hit 1M+ views on AI videos","video_image":"https:\/\/i.ytimg.com\/vi\/nt8gUax1Aj0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=nt8gUax1Aj0","channel_name":"GregIsenberg","channel_link":"https:\/\/www.youtube.com\/@GregIsenberg","channel_image":"https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"13 hours ago","is_short":0,"timestamp":"1759604701","remove":0},{"video_id":"5BbNDct5BD8","video_title":"Sora 2 vs Veo 3 vs Kling 2.5 vs Wan 2.5: The ULTIMATE AI Video Generator Comparison","video_image":"https:\/\/i.ytimg.com\/vi\/5BbNDct5BD8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=5BbNDct5BD8","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"15 hours ago","is_short":0,"timestamp":"1759597752","remove":0},{"video_id":"RZDP8pMuSD0","video_title":"Vibe Coding Comes to the Enterprise","video_image":"https:\/\/i.ytimg.com\/vi\/RZDP8pMuSD0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=RZDP8pMuSD0","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"15 hours ago","is_short":0,"timestamp":"1759597596","remove":0},{"video_id":"v35C2KbdH4w","video_title":"Google\u2019s Hidden AI Shortcut Pays WEEKLY (Few Know This)","video_image":"https:\/\/i.ytimg.com\/vi\/v35C2KbdH4w\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=v35C2KbdH4w","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"16 hours ago","is_short":0,"timestamp":"1759596584","remove":0},{"video_id":"EB4CbLg943c","video_title":"AI Slop vs Professional AI: The Right Way to Use AI as a Creative","video_image":"https:\/\/i.ytimg.com\/vi\/EB4CbLg943c\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=EB4CbLg943c","channel_name":"MidjourneyExperience","channel_link":"https:\/\/www.youtube.com\/@MidjourneyExperience","channel_image":"https:\/\/yt3.ggpht.com\/5FkuZACLRvTFlc3SNpIuh0vHMK_d9dNqS1ktqJpwRpFs96SJuwyCYk1XMy4kHpRhkx3hnu4QXg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"26 hours ago","is_short":0,"timestamp":"1759559181","remove":0},{"video_id":"n-lKw-hr4n4","video_title":"Invoke - 10\/03 Studio Session","video_image":"https:\/\/i.ytimg.com\/vi\/n-lKw-hr4n4\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=n-lKw-hr4n4","channel_name":"invokeai","channel_link":"https:\/\/www.youtube.com\/@invokeai","channel_image":"https:\/\/yt3.ggpht.com\/cB79txKLgy_hLeHp_FRu9CPmIngQOkJVrMp_dLvHJH-NsoUDkJ-b_Z-381SmV9h5gmTzz9f_QA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"26 hours ago","is_short":0,"timestamp":"1759557928","remove":0},{"video_id":"dIWovyRPOp8","video_title":"Sora 2 Videos on Autopilot \ud83d\ude80 Free N8N Template (Veo 3 & Wan 2.5 Killer!)","video_image":"https:\/\/i.ytimg.com\/vi\/dIWovyRPOp8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=dIWovyRPOp8","channel_name":"AdrianViralAIMarketing","channel_link":"https:\/\/www.youtube.com\/@AdrianViralAIMarketing","channel_image":"https:\/\/yt3.ggpht.com\/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"30 hours ago","is_short":0,"timestamp":"1759543112","remove":0},{"video_id":"mPWlKfRw1bM","video_title":"New SHAPE SHIFTING AI Robot Is Freaking People Out","video_image":"https:\/\/i.ytimg.com\/vi\/mPWlKfRw1bM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mPWlKfRw1bM","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759530751","remove":0},{"video_id":"lVDrHZY1mUc","video_title":"Now You Can Buy Stuff in ChatGPT \u2014 But Does Anyone Want To?","video_image":"https:\/\/i.ytimg.com\/vi\/lVDrHZY1mUc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lVDrHZY1mUc","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759530071","remove":0},{"video_id":"IjYKIqvTyXg","video_title":"I gave away $1M to prove anyone can build with AI","video_image":"https:\/\/i.ytimg.com\/vi\/IjYKIqvTyXg\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=IjYKIqvTyXg","channel_name":"GregIsenberg","channel_link":"https:\/\/www.youtube.com\/@GregIsenberg","channel_image":"https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"34 hours ago","is_short":0,"timestamp":"1759528832","remove":0},{"video_id":"lfSn8m21DpQ","video_title":"Is Sora 2 Worth the Hype?","video_image":"https:\/\/i.ytimg.com\/vi\/lfSn8m21DpQ\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lfSn8m21DpQ","channel_name":"curiousrefuge","channel_link":"https:\/\/www.youtube.com\/@curiousrefuge","channel_image":"https:\/\/yt3.ggpht.com\/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj","hours_ago":"35 hours ago","is_short":0,"timestamp":"1759525805","remove":0},{"video_id":"budTmdQfXYU","video_title":"n8n Now Runs My ENTIRE Homelab","video_image":"https:\/\/i.ytimg.com\/vi\/budTmdQfXYU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=budTmdQfXYU","channel_name":"NetworkChuck","channel_link":"https:\/\/www.youtube.com\/@NetworkChuck","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"38 hours ago","is_short":0,"timestamp":"1759515425","remove":0},{"video_id":"WI4T-G83Bg8","video_title":"These OpenAI Releases Are INSANE & More AI Use Cases","video_image":"https:\/\/i.ytimg.com\/vi\/WI4T-G83Bg8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=WI4T-G83Bg8","channel_name":"aiadvantage","channel_link":"https:\/\/www.youtube.com\/@aiadvantage","channel_image":"https:\/\/yt3.ggpht.com\/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"39 hours ago","is_short":0,"timestamp":"1759512950","remove":0},{"video_id":"ovpZ4m6yV6M","video_title":"Create Viral Hooks with SORA 2 Cameos (+ access codes)","video_image":"https:\/\/i.ytimg.com\/vi\/ovpZ4m6yV6M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ovpZ4m6yV6M","channel_name":"elevenlabsio","channel_link":"https:\/\/www.youtube.com\/@elevenlabsio","channel_image":"https:\/\/yt3.ggpht.com\/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759509553","remove":0},{"video_id":"BnkWIHWCE2U","video_title":"Sora 2 PRO is Here, FREE & UNLIMITED... How to get INVITE CODES From Anywhere","video_image":"https:\/\/i.ytimg.com\/vi\/BnkWIHWCE2U\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=BnkWIHWCE2U","channel_name":"brainprojectx","channel_link":"https:\/\/www.youtube.com\/@brainprojectx","channel_image":"https:\/\/yt3.ggpht.com\/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759509416","remove":0},{"video_id":"SquU4Bpc73Y","video_title":"Alibaba is going all in on Qwen\u2026","video_image":"https:\/\/i.ytimg.com\/vi\/SquU4Bpc73Y\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=SquU4Bpc73Y","channel_name":"Fireship","channel_link":"https:\/\/www.youtube.com\/@Fireship","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"40 hours ago","is_short":0,"timestamp":"1759507348","remove":0},{"video_id":"UAMY7fU7dxs","video_title":"How to Use Nano Banana In Photoshop (TUTORIAL)","video_image":"https:\/\/i.ytimg.com\/vi\/UAMY7fU7dxs\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=UAMY7fU7dxs","channel_name":"TaylorBayStudios","channel_link":"https:\/\/www.youtube.com\/@TaylorBayStudios","channel_image":"https:\/\/yt3.ggpht.com\/9jBZ5tqt359I1u1yX5cXLeiAru8VZsZtrhAbUlY0z_uDFosIsv71quTR5rxgTPCB5R_17CDHnw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"41 hours ago","is_short":0,"timestamp":"1759506077","remove":0},{"video_id":"mYd8VgGtw5A","video_title":"OpenAI\u2019s Sora 2: Future of Media or AI SLOPOCALYPSE??","video_image":"https:\/\/i.ytimg.com\/vi\/mYd8VgGtw5A\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mYd8VgGtw5A","channel_name":"AIForHumansShow","channel_link":"https:\/\/www.youtube.com\/@AIForHumansShow","channel_image":"https:\/\/yt3.ggpht.com\/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj","hours_ago":"42 hours ago","is_short":0,"timestamp":"1759502356","remove":0},{"video_id":"pgR0gSh7i2M","video_title":"How I used OpenArt Story to create a BUMPIN Music Video","video_image":"https:\/\/i.ytimg.com\/vi\/pgR0gSh7i2M\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=pgR0gSh7i2M","channel_name":"openart_ai","channel_link":"https:\/\/www.youtube.com\/@openart_ai","channel_image":"https:\/\/yt3.ggpht.com\/p39dy5K7y1p4S83eyGKAIGtKq-z5-jjGCNJneNMMlP5nWS7YKgrGeG02PMWxZiTvEUFeTOWGseg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"42 hours ago","is_short":0,"timestamp":"1759499929","remove":0},{"video_id":"y91cq1RYR9c","video_title":"I Launched a Print on Demand Product at the Airport in 10 Minutes","video_image":"https:\/\/i.ytimg.com\/vi\/y91cq1RYR9c\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=y91cq1RYR9c","channel_name":"GeorgeDMcConnell","channel_link":"https:\/\/www.youtube.com\/@GeorgeDMcConnell","channel_image":"https:\/\/yt3.ggpht.com\/Nd14uY9un3LNeAaH3fjOkZfc7ZQ4-OPoXIorNQp6CQ5QheKzlwAsMQCJttyh-exhYbb7ZZRXrTo=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759498265","remove":0},{"video_id":"yo6Lu5RpZXM","video_title":"US Gov't: \"DeepSeek Sucks, Actually\"","video_image":"https:\/\/i.ytimg.com\/vi\/yo6Lu5RpZXM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=yo6Lu5RpZXM","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759497991","remove":0},{"video_id":"nr-nrx8vlh8","video_title":"How To Get SORA 2 Cameo App for FREE Anywhere in the WORLD","video_image":"https:\/\/i.ytimg.com\/vi\/nr-nrx8vlh8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=nr-nrx8vlh8","channel_name":"Dankieft","channel_link":"https:\/\/www.youtube.com\/@Dankieft","channel_image":"https:\/\/yt3.ggpht.com\/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"43 hours ago","is_short":0,"timestamp":"1759497563","remove":0},{"video_id":"B4uD9z6i_IU","video_title":"Vibe Planning: The Smarter Way to Code with AI Agents","video_image":"https:\/\/i.ytimg.com\/vi\/B4uD9z6i_IU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=B4uD9z6i_IU","channel_name":"engineerprompt","channel_link":"https:\/\/www.youtube.com\/@engineerprompt","channel_image":"https:\/\/yt3.ggpht.com\/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"44 hours ago","is_short":0,"timestamp":"1759495501","remove":0},{"video_id":"hRvghQwSWPI","video_title":"Sora2 is NOW in n8n \u2014 OpenAI's Veo3 x Wan2.5 Killer (no-code AI automation tutorial \ud83e\udd5a)","video_image":"https:\/\/i.ytimg.com\/vi\/hRvghQwSWPI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hRvghQwSWPI","channel_name":"RoboNuggets","channel_link":"https:\/\/www.youtube.com\/@RoboNuggets","channel_image":"https:\/\/yt3.ggpht.com\/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"46 hours ago","is_short":0,"timestamp":"1759485521","remove":0},{"video_id":"q80g1qW7eNA","video_title":"Suno AI V5 is INSANE - Suno Studio, MIDI Stems, New Remaster, Hooks","video_image":"https:\/\/i.ytimg.com\/vi\/q80g1qW7eNA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=q80g1qW7eNA","channel_name":"AIAutomationLabs","channel_link":"https:\/\/www.youtube.com\/@AIAutomationLabs","channel_image":"https:\/\/yt3.ggpht.com\/O0uJqRAkVl5DQfTUFpwF39RV7k9obeNKvdtTUDjmUkDLu9zjBIBhtq0Jr53pRCaliyRRBG9rng=s88-c-k-c0x00ffffff-no-rj","hours_ago":"55 hours ago","is_short":0,"timestamp":"1759453256","remove":0},{"video_id":"ObRsPL35-pI","video_title":"When Will AI Make Scientific Discoveries?","video_image":"https:\/\/i.ytimg.com\/vi\/ObRsPL35-pI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=ObRsPL35-pI","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"56 hours ago","is_short":0,"timestamp":"1759449606","remove":0},{"video_id":"Zn1PW_vmwFA","video_title":"Sora 2 Is INSANE! (How to REMOVE the Watermark)","video_image":"https:\/\/i.ytimg.com\/vi\/Zn1PW_vmwFA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Zn1PW_vmwFA","channel_name":"AdrianViralAIMarketing","channel_link":"https:\/\/www.youtube.com\/@AdrianViralAIMarketing","channel_image":"https:\/\/yt3.ggpht.com\/yQ2n7q3hUk7FjOf5SgbKtvSrXx1_gsiN8O20Q41ZbyCYqJOXrewKxK3pPCrT6hiT2AIOxYmc0w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"57 hours ago","is_short":0,"timestamp":"1759448315","remove":0},{"video_id":"slALvyUuPA4","video_title":"Sora Is More Powerful Than You Thought","video_image":"https:\/\/i.ytimg.com\/vi\/slALvyUuPA4\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=slALvyUuPA4","channel_name":"TheoreticallyMedia","channel_link":"https:\/\/www.youtube.com\/@TheoreticallyMedia","channel_image":"https:\/\/yt3.ggpht.com\/U4AE38fpp0B35ULJQlb8XP1NnIL0Y6NmBiniM9z7qiaGA_Vg4qD_tAldiNq2_nxWv-LygmOOJQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"58 hours ago","is_short":0,"timestamp":"1759444900","remove":0},{"video_id":"eUr3LHjcokU","video_title":"SORA 2 Just Broke Reality and the Internet Exploded (Gone Too Far)","video_image":"https:\/\/i.ytimg.com\/vi\/eUr3LHjcokU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=eUr3LHjcokU","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"58 hours ago","is_short":0,"timestamp":"1759442452","remove":0},{"video_id":"Xt0oupsq9Jc","video_title":"The NEW Way People Are Making Money With Perplexity AI","video_image":"https:\/\/i.ytimg.com\/vi\/Xt0oupsq9Jc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Xt0oupsq9Jc","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"63 hours ago","is_short":0,"timestamp":"1759427105","remove":0},{"video_id":"H1u8OX1_dpo","video_title":"Sora 2 INSANE Product Videos! (How To ACCESS SORA 2 For FREE)","video_image":"https:\/\/i.ytimg.com\/vi\/H1u8OX1_dpo\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=H1u8OX1_dpo","channel_name":"thomaslundstrm","channel_link":"https:\/\/www.youtube.com\/@thomaslundstrm","channel_image":"https:\/\/yt3.ggpht.com\/CLV3e-g4l-NxgwITgGJYhvQcc00q_PDoGLO_PjNT1dAoBs8Kg19n6ahh9tzPsqhi7J5AZQwTMps=s88-c-k-c0x00ffffff-no-rj","hours_ago":"63 hours ago","is_short":0,"timestamp":"1759424162","remove":0},{"video_id":"FOdI06UQumI","video_title":"Singapore's SECRET AI Music Generator Will DESTROY The Music Industry","video_image":"https:\/\/i.ytimg.com\/vi\/FOdI06UQumI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FOdI06UQumI","channel_name":"brainprojectx","channel_link":"https:\/\/www.youtube.com\/@brainprojectx","channel_image":"https:\/\/yt3.ggpht.com\/u7k_buhaC8AChKl39KD24BEUfdbDcIuf0zJ4Sopp6pGsy2em5ZBixgY-YxLbjTQ7ZbJKZ7oivA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"64 hours ago","is_short":0,"timestamp":"1759422781","remove":0},{"video_id":"RJ2eqkk_JxI","video_title":"Nano Banana Officially in Photoshop: 50+ EPIC Uses!","video_image":"https:\/\/i.ytimg.com\/vi\/RJ2eqkk_JxI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=RJ2eqkk_JxI","channel_name":"PiXimperfect","channel_link":"https:\/\/www.youtube.com\/@PiXimperfect","channel_image":"https:\/\/yt3.ggpht.com\/5_3VwTn9YD0bH3TtcY8ZNrxmsQkUkZl8OxV1djiAyMeYd8pU4UVaCOChNXlrOLL9LLoq_-SvMg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"64 hours ago","is_short":0,"timestamp":"1759421401","remove":0},{"video_id":"zIcqQ9HNmDU","video_title":"Sora 2 - OpenAI's TikTok","video_image":"https:\/\/i.ytimg.com\/vi\/zIcqQ9HNmDU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=zIcqQ9HNmDU","channel_name":"samwitteveenai","channel_link":"https:\/\/www.youtube.com\/@samwitteveenai","channel_image":"https:\/\/yt3.ggpht.com\/e_RPj4GPULtytcX-hBDLfczyrnig7FRdICa8BjtvaR1GRUs4BlaXBghqrUipqgjkyOdSpu1IJA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759415445","remove":0},{"video_id":"oXX9vCC-yb8","video_title":"How to *ACTUALLY* get things done | 6 productivity tips that worked for me!","video_image":"https:\/\/i.ytimg.com\/vi\/oXX9vCC-yb8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=oXX9vCC-yb8","channel_name":"toolfinderhq","channel_link":"https:\/\/www.youtube.com\/@toolfinderhq","channel_image":"https:\/\/yt3.ggpht.com\/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759415010","remove":0},{"video_id":"yyl0rDT38PM","video_title":"REACTING to 2022 Ai Art for Print on Demand (HORROR)","video_image":"https:\/\/i.ytimg.com\/vi\/yyl0rDT38PM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=yyl0rDT38PM","channel_name":"PhilipAnders","channel_link":"https:\/\/www.youtube.com\/@PhilipAnders","channel_image":"https:\/\/yt3.ggpht.com\/ZvhtfNEUPtQv3sLp9esMrY4KZ899xlTHhirFcF6X1LoLJSCQIRDD80cILJcaw1czth7OdEL79Q=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759414517","remove":0},{"video_id":"KQdvjLRnGnU","video_title":"Easy Ways To Add YOUR FACE To Midjourney Images (for UNIQUE AI Art!)","video_image":"https:\/\/i.ytimg.com\/vi\/KQdvjLRnGnU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=KQdvjLRnGnU","channel_name":"WadeMcMaster","channel_link":"https:\/\/www.youtube.com\/@WadeMcMaster","channel_image":"https:\/\/yt3.ggpht.com\/1ZG1JDuIjuaYKdQ7GNxv2JVEOPT6wllFv-YTIU2-2uytBAvntGhcHRJZj8YgO7E1GAmhNR_1kQ=s88-c-k-c0x00ffffff-no-rj","hours_ago":"66 hours ago","is_short":0,"timestamp":"1759413635","remove":0},{"video_id":"W52qBo14toA","video_title":"Sora 2 Tested To The Limits + Invite Codes & How to Access (Full Tutorial)","video_image":"https:\/\/i.ytimg.com\/vi\/W52qBo14toA\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=W52qBo14toA","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"67 hours ago","is_short":0,"timestamp":"1759411994","remove":0},{"video_id":"FL4K_t9Uz9o","video_title":"The EASIEST Way To Make Money With ChatGPT in 2025 (Step by Step)","video_image":"https:\/\/i.ytimg.com\/vi\/FL4K_t9Uz9o\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FL4K_t9Uz9o","channel_name":"PaulJLipsky","channel_link":"https:\/\/www.youtube.com\/@PaulJLipsky","channel_image":"https:\/\/yt3.ggpht.com\/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"67 hours ago","is_short":0,"timestamp":"1759410033","remove":0},{"video_id":"jXNxIbYM7wI","video_title":"How to Access Sora 2 for FREE (Unlimited invite codes!)","video_image":"https:\/\/i.ytimg.com\/vi\/jXNxIbYM7wI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=jXNxIbYM7wI","channel_name":"RandomAI_ss","channel_link":"https:\/\/www.youtube.com\/@RandomAI_ss","channel_image":"https:\/\/yt3.ggpht.com\/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj","hours_ago":"68 hours ago","is_short":0,"timestamp":"1759407749","remove":0},{"video_id":"3wppS0bcQps","video_title":"OpenAI's NEW Sora 2 Is INSANE!","video_image":"https:\/\/i.ytimg.com\/vi\/3wppS0bcQps\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=3wppS0bcQps","channel_name":"NickPonte808","channel_link":"https:\/\/www.youtube.com\/@NickPonte808","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_nou5Fs76G4sF_ombPr23BNBlID-p0jJ6N3AI3tWt_kPKA=s88-c-k-c0x00ffffff-no-rj","hours_ago":"74 hours ago","is_short":0,"timestamp":"1759387612","remove":0},{"video_id":"El-G4cO4x4I","video_title":"Sora 2\u2026 wtf","video_image":"https:\/\/i.ytimg.com\/vi\/El-G4cO4x4I\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=El-G4cO4x4I","channel_name":"theAIsearch","channel_link":"https:\/\/www.youtube.com\/@theAIsearch","channel_image":"https:\/\/yt3.ggpht.com\/GV5UTW2IlP29PhsLKm65ue4LZYXxMyPV5YQdfE6GVgv9KH1_y_8kCirPGfpVn9yTJuNBvVHktEE=s88-c-k-c0x00ffffff-no-rj","hours_ago":"78 hours ago","is_short":0,"timestamp":"1759370496","remove":0},{"video_id":"L09kacrneOc","video_title":"How To Build AI Agents To Automate EVERYTHING (n8n tutorial)","video_image":"https:\/\/i.ytimg.com\/vi\/L09kacrneOc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=L09kacrneOc","channel_name":"mreflow","channel_link":"https:\/\/www.youtube.com\/@mreflow","channel_image":"https:\/\/yt3.ggpht.com\/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s88-c-k-c0x00ffffff-no-rj","hours_ago":"80 hours ago","is_short":0,"timestamp":"1759364745","remove":0},{"video_id":"Ke0yXxDUdWQ","video_title":"OpenAI\u2019s Sora 2 Sparks a Brainrot Rebellion","video_image":"https:\/\/i.ytimg.com\/vi\/Ke0yXxDUdWQ\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Ke0yXxDUdWQ","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"80 hours ago","is_short":0,"timestamp":"1759363206","remove":0},{"video_id":"qCOAOK40l6k","video_title":"A New Midjourney Experience Soon? | Oct. 1st","video_image":"https:\/\/i.ytimg.com\/vi\/qCOAOK40l6k\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=qCOAOK40l6k","channel_name":"FutureTechPilot","channel_link":"https:\/\/www.youtube.com\/@FutureTechPilot","channel_image":"https:\/\/yt3.ggpht.com\/7PxvUtwA8sjuxwyTVDuAwmHYzvdA0VCHfmxvVipLeynuaAXK_Mh4v7f8-H7VOBzR4c3eev9Xbco=s88-c-k-c0x00ffffff-no-rj","hours_ago":"84 hours ago","is_short":0,"timestamp":"1759351859","remove":0},{"video_id":"FRt2erUbSA8","video_title":"AI SHOCKS The World This Month: Unitree Anti-Gravity Robot, ChatGPT Upgrade, Chrome AI...","video_image":"https:\/\/i.ytimg.com\/vi\/FRt2erUbSA8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=FRt2erUbSA8","channel_name":"airevolutionx","channel_link":"https:\/\/www.youtube.com\/@airevolutionx","channel_image":"https:\/\/yt3.ggpht.com\/XRZC_XqZoSUtB_Zo9R0w2vDRqGqVv0lKZTRYI6b-7DPKi32MtByVhxgIokLAguhf7fw__K8o3g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"84 hours ago","is_short":0,"timestamp":"1759348982","remove":0},{"video_id":"s1ykViUikTU","video_title":"Open AI's Sora 2 made me rethink what's possible.","video_image":"https:\/\/i.ytimg.com\/vi\/s1ykViUikTU\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=s1ykViUikTU","channel_name":"MattVidPro","channel_link":"https:\/\/www.youtube.com\/@MattVidPro","channel_image":"https:\/\/yt3.ggpht.com\/QIYXdEMD970-oV8nd2gKHxPlQ1-BOmJc7EJhgIGcQPlTFopvFPCHDzkyfZIfEFrdCs8wu2Gc8g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"85 hours ago","is_short":0,"timestamp":"1759348084","remove":0},{"video_id":"A4Ktp9o8Wbg","video_title":"SORA 2 Is INSANE!  How To ACCESS SORA 2 For FREE with Invite code","video_image":"https:\/\/i.ytimg.com\/vi\/A4Ktp9o8Wbg\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=A4Ktp9o8Wbg","channel_name":"Dankieft","channel_link":"https:\/\/www.youtube.com\/@Dankieft","channel_image":"https:\/\/yt3.ggpht.com\/DEoQS3TTE7UnQzoiwxybsEd_Guw7fleqKT9_F4q28jDpXhQ0soMlc9xuqWWWawQlXI4ztmb0fw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"85 hours ago","is_short":0,"timestamp":"1759346751","remove":0},{"video_id":"hkSj-QapfZo","video_title":"OpenAI\u2019s new slop machine is open for business\u2026","video_image":"https:\/\/i.ytimg.com\/vi\/hkSj-QapfZo\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hkSj-QapfZo","channel_name":"Fireship","channel_link":"https:\/\/www.youtube.com\/@Fireship","channel_image":"https:\/\/yt3.ggpht.com\/ytc\/AIdro_mKzklyPPhghBJQH5H3HpZ108YcE618DBRLAvRUD1AjKNw=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759343906","remove":0},{"video_id":"OsouEqM33mc","video_title":"Nobody\u2019s Talking About This Gemini Feature (But They Should)","video_image":"https:\/\/i.ytimg.com\/vi\/OsouEqM33mc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=OsouEqM33mc","channel_name":"curiousrefuge","channel_link":"https:\/\/www.youtube.com\/@curiousrefuge","channel_image":"https:\/\/yt3.ggpht.com\/p_nYTybWnt_KpbcggIOrwASuFknlTDcBC-_zUZtGXf1jBkZTaMO4Ns1s07-s50k7Do9D2mH9=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759343606","remove":0},{"video_id":"hhblUK-H1Ok","video_title":"UPDATE: Kling 2.5 Turbo \u2013 Top AI Video Generator & Kling Lab","video_image":"https:\/\/i.ytimg.com\/vi\/hhblUK-H1Ok\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=hhblUK-H1Ok","channel_name":"AI.NowYKnow","channel_link":"https:\/\/www.youtube.com\/@AI.NowYKnow","channel_image":"https:\/\/yt3.ggpht.com\/HwSrvmTnA4MLoWlCuWFpbSN9R6Ybe9C08E14L_Q-A6CEQZjyr5eml9h5nagM02N6gf40T0jp=s88-c-k-c0x00ffffff-no-rj","hours_ago":"86 hours ago","is_short":0,"timestamp":"1759342574","remove":0},{"video_id":"jqhnplwGUK0","video_title":"The AI Cost Performance Frontier Keeps Improving","video_image":"https:\/\/i.ytimg.com\/vi\/jqhnplwGUK0\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=jqhnplwGUK0","channel_name":"AIDailyBrief","channel_link":"https:\/\/www.youtube.com\/@AIDailyBrief","channel_image":"https:\/\/yt3.ggpht.com\/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s88-c-k-c0x00ffffff-no-rj","hours_ago":"88 hours ago","is_short":0,"timestamp":"1759335870","remove":0},{"video_id":"7JekC_Gq8VM","video_title":"How to Create Cinematic AI Films with Kling 2.5 Turbo","video_image":"https:\/\/i.ytimg.com\/vi\/7JekC_Gq8VM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=7JekC_Gq8VM","channel_name":"elevenlabsio","channel_link":"https:\/\/www.youtube.com\/@elevenlabsio","channel_image":"https:\/\/yt3.ggpht.com\/c9ik7bc8n_f-W6XJKvBpiiCoDsQ7IKDruGZvxHAee5J8kFybBWWnj1TYAjJMF5x_a1Rrg5a31w=s88-c-k-c0x00ffffff-no-rj","hours_ago":"89 hours ago","is_short":0,"timestamp":"1759332503","remove":0},{"video_id":"rWppu2KhWIc","video_title":"Sora 2 - It will only get more realistic from here","video_image":"https:\/\/i.ytimg.com\/vi\/rWppu2KhWIc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=rWppu2KhWIc","channel_name":"AIExplained","channel_link":"https:\/\/www.youtube.com\/@aiexplained-official","channel_image":"https:\/\/yt3.ggpht.com\/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"89 hours ago","is_short":0,"timestamp":"1759330843","remove":0},{"video_id":"PtoMK9Vo0gI","video_title":"Mem 2.0 is here!","video_image":"https:\/\/i.ytimg.com\/vi\/PtoMK9Vo0gI\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=PtoMK9Vo0gI","channel_name":"toolfinderhq","channel_link":"https:\/\/www.youtube.com\/@toolfinderhq","channel_image":"https:\/\/yt3.ggpht.com\/F-ue2V2ghvgHMCVkNH4WwsSRfD8AH3goM1Y6HFat_1AgjOqzIqrz6Jx1SVVlHUSQQ9zBpb22DK0=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759330157","remove":0},{"video_id":"mbuyzVL5kpM","video_title":"Long Monetizable Videos with AI (Free & Unlimited) 100% Legal","video_image":"https:\/\/i.ytimg.com\/vi\/mbuyzVL5kpM\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=mbuyzVL5kpM","channel_name":"malvaAI","channel_link":"https:\/\/www.youtube.com\/@malvaAI","channel_image":"https:\/\/yt3.ggpht.com\/7xYIzjHUw7X4JsUjyrI2ywnrXzGDvl18Hhdi9MKzoIJkBQbitpBWzoC_5gAykHpjnP7-Wz-1cg=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759327219","remove":0},{"video_id":"Obws0EX_Ew8","video_title":"People are actually creating INSANE AI videos using Sora 2.","video_image":"https:\/\/i.ytimg.com\/vi\/Obws0EX_Ew8\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=Obws0EX_Ew8","channel_name":"RandomAI_ss","channel_link":"https:\/\/www.youtube.com\/@RandomAI_ss","channel_image":"https:\/\/yt3.ggpht.com\/m7kAWoFf20YyJcKGof6b78nfIna-PYtmRESk_h3FlF-qMjjWmnm52pNlgBgaHIkwA6z5uD_J=s88-c-k-c0x00ffffff-no-rj","hours_ago":"90 hours ago","is_short":0,"timestamp":"1759327063","remove":0},{"video_id":"uBTWW8s9Nhc","video_title":"Sora 2 is INSANE! Best AI Generated Videos Compilation","video_image":"https:\/\/i.ytimg.com\/vi\/uBTWW8s9Nhc\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=uBTWW8s9Nhc","channel_name":"TechTutorZones","channel_link":"https:\/\/www.youtube.com\/@TechTutorZones","channel_image":"https:\/\/yt3.ggpht.com\/g_oaepy38hNl9CCQJKnq6A8L1YinY0FsQig53tgAWaXIQ0wP7nQvAxNjU8-FlQ_pY2Gelauw-Bk=s88-c-k-c0x00ffffff-no-rj","hours_ago":"91 hours ago","is_short":0,"timestamp":"1759326605","remove":0},{"video_id":"lz8lRPY4Z9I","video_title":"Midjourney Update | September 2025: NEW Style Explorer, V7.1 & V8 Updates, User Profiles!","video_image":"https:\/\/i.ytimg.com\/vi\/lz8lRPY4Z9I\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=lz8lRPY4Z9I","channel_name":"woollyferncreative","channel_link":"https:\/\/www.youtube.com\/@woollyferncreative","channel_image":"https:\/\/yt3.ggpht.com\/VaJed0E0MZJktGADfoogu4kotJ1xHfYtpgCDTyOt9c2TrOBWl16c0EAN-toDDHwc7IphDd9V7g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"92 hours ago","is_short":0,"timestamp":"1759322972","remove":0},{"video_id":"GfBPtZag0ag","video_title":"Claude Code 2.0: The Only Guide You Need","video_image":"https:\/\/i.ytimg.com\/vi\/GfBPtZag0ag\/maxresdefault.jpg","video_link":"https:\/\/www.youtube.com\/watch?v=GfBPtZag0ag","channel_name":"engineerprompt","channel_link":"https:\/\/www.youtube.com\/@engineerprompt","channel_image":"https:\/\/yt3.ggpht.com\/vhMNk7glc5VOkyiIjttJ1RcwHErqinDL4z1WmerIM8VU7WSCLAXJIB4lxe64MO3V3ZvVhbhJ6g=s88-c-k-c0x00ffffff-no-rj","hours_ago":"92 hours ago","is_short":0,"timestamp":"1759321830","remove":0}]
                     let initializedPlayers = new Set();
                     function onYouTubeIframeAPIReady() {
                         const observer = new IntersectionObserver((entries, observer) => {
