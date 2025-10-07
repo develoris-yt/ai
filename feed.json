@@ -36,7 +36,7 @@
         "hours_ago": "3 hours ago",
         "is_short": 0,
         "timestamp": "1759870156",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "91aH8jsG4cc",
@@ -49,7 +49,7 @@
         "hours_ago": "4 hours ago",
         "is_short": 0,
         "timestamp": "1759864252",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "9xFSVqNFKJI",
@@ -62,7 +62,7 @@
         "hours_ago": "5 hours ago",
         "is_short": 0,
         "timestamp": "1759861261",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "yD-hKFj78g0",
@@ -88,7 +88,7 @@
         "hours_ago": "7 hours ago",
         "is_short": 0,
         "timestamp": "1759856423",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "pJHWIgri5vk",
@@ -114,7 +114,7 @@
         "hours_ago": "8 hours ago",
         "is_short": 0,
         "timestamp": "1759850072",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "EwxA8xxiEME",
@@ -127,7 +127,7 @@
         "hours_ago": "10 hours ago",
         "is_short": 0,
         "timestamp": "1759845572",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "sG3yEgO-MFo",
@@ -140,7 +140,7 @@
         "hours_ago": "11 hours ago",
         "is_short": 0,
         "timestamp": "1759842108",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "YgU3Cg33zMY",
@@ -153,7 +153,7 @@
         "hours_ago": "11 hours ago",
         "is_short": 0,
         "timestamp": "1759841986",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "0-0gFuDwmXI",
@@ -166,7 +166,7 @@
         "hours_ago": "11 hours ago",
         "is_short": 0,
         "timestamp": "1759840134",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "xDIMmG9yaD0",
@@ -179,7 +179,7 @@
         "hours_ago": "13 hours ago",
         "is_short": 0,
         "timestamp": "1759831611",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "0S1dBp1E-4s",
@@ -244,7 +244,7 @@
         "hours_ago": "28 hours ago",
         "is_short": 0,
         "timestamp": "1759779901",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "XS1S1N08IgU",
@@ -270,7 +270,7 @@
         "hours_ago": "31 hours ago",
         "is_short": 0,
         "timestamp": "1759768127",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "auib5Krn2AY",
@@ -322,7 +322,7 @@
         "hours_ago": "51 hours ago",
         "is_short": 0,
         "timestamp": "1759696733",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "TMA4UP97XZc",
@@ -335,7 +335,7 @@
         "hours_ago": "55 hours ago",
         "is_short": 0,
         "timestamp": "1759680355",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "I0l4Dnk6GMU",
@@ -348,7 +348,7 @@
         "hours_ago": "57 hours ago",
         "is_short": 0,
         "timestamp": "1759673701",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "WmIc8li8eWE",
@@ -361,7 +361,7 @@
         "hours_ago": "58 hours ago",
         "is_short": 0,
         "timestamp": "1759671280",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "TLNDIx8F00U",
@@ -374,7 +374,7 @@
         "hours_ago": "59 hours ago",
         "is_short": 0,
         "timestamp": "1759669261",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "0jUfQvGPvL4",
@@ -387,7 +387,7 @@
         "hours_ago": "59 hours ago",
         "is_short": 0,
         "timestamp": "1759667402",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "t58Z1yOsSdM",
@@ -400,7 +400,7 @@
         "hours_ago": "62 hours ago",
         "is_short": 0,
         "timestamp": "1759656586",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "bVxBrzSe3kA",
@@ -426,7 +426,7 @@
         "hours_ago": "71 hours ago",
         "is_short": 0,
         "timestamp": "1759625836",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "f5mrzYpq49M",
@@ -449,10 +449,10 @@
         "channel_name": "GregIsenberg",
         "channel_link": "https:\/\/www.youtube.com\/@GregIsenberg",
         "channel_image": "https:\/\/yt3.ggpht.com\/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
-        "hours_ago": "76 hours ago",
+        "hours_ago": "77 hours ago",
         "is_short": 0,
         "timestamp": "1759604701",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "5BbNDct5BD8",
@@ -478,7 +478,7 @@
         "hours_ago": "78 hours ago",
         "is_short": 0,
         "timestamp": "1759597596",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "v35C2KbdH4w",
@@ -491,7 +491,7 @@
         "hours_ago": "79 hours ago",
         "is_short": 0,
         "timestamp": "1759596584",
-        "remove": 1
+        "remove": 0
     },
     {
         "video_id": "EB4CbLg943c",
